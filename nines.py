@@ -23,6 +23,7 @@ def argparser():
     
     args = parser.parse_args()
 
+    # Check validity of arguments before returning
     for key, value in vars(args).items():
         if not checkArgsValidity(value):
             print(value + " is an invalid " + key + " argument")
@@ -33,11 +34,11 @@ def argparser():
 def checkArgsValidity(argument):
     # Regex match Letters/Number ONLY on String
     if re.match('^[A-Za-z0-9]*$', argument):
-        return True
         print("true")
+        return True
     else:
-        return False
         print("false")
+        return False
 
 # Gets current workding dir 
 def getcwd():
