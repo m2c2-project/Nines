@@ -7,7 +7,8 @@ import argparse
 
 def main():
     args = argparser()
-    makeFolder(args.replace)
+    folder = makeFolder(args.replace)
+
     return 0
 
 
@@ -15,7 +16,8 @@ def main():
 def argparser():
     parser = argparse.ArgumentParser(description='Finds and replaces all instances of a User Id passed as an positional argument in Dolphin data folders, '
     'file names, as well as .txts recursively. Will only work with Alphanumeric Characters')
-    # Parser matcha dn replace arguments, required fields
+    
+    # Parser match and replace arguments, required fields
     parser.add_argument('match', help='UserId to match and replace (Required)')
     parser.add_argument('replace', help='Replacement string for match values')
     
@@ -29,17 +31,20 @@ def argparser():
     return args
 
 
-# Create new folder for corrected dataset
+# Create new folder
 def makeFolder(folderName):
-
+    # Create path for folder in correct formatting for OS
     dirFolder = os.path.join(getcwd(), folderName)
+    # If folder doesn't exist, make it and report
+    if not os.path.isdir(dirFolder):
+        try:
+            os.mkdir(dirFolder)
+        except OSError:
+            print("Creation of the replacement directory failed")
+        else:
+            print("Successfully created the directory")
 
-    try:
-        os.mkdir(dirFolder)
-    except OSError:
-        print("Creation of the replacement directory failed")
-    else:
-        print("Successfully created the directory")
+    return dirFolder
 
 
 # Gets current workding dir 
