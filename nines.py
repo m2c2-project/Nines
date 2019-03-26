@@ -2,7 +2,6 @@
 
 import sys
 import os
-import re
 import argparse
 
 def main():
@@ -43,6 +42,8 @@ def makeFolder(folderName):
             print("Creation of the replacement directory failed")
         else:
             print("Successfully created the directory")
+    else:
+        print("Folder exists")
 
     return dirFolder
 
