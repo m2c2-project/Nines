@@ -7,16 +7,24 @@ import argparse
 
 def main():
     args = argparser()
+    print(args.match)
+    print(args.replace)
     cwd = getcwd()
     # print("mypathis: " + cwd)
 
+    return 0
 
-def argparser():
+
 # Arge Parser Setup
+def argparser():
     parser = argparse.ArgumentParser(description='Finds and replaces all instances of a User Id passed as an positional argument in Dolphin data folders, file names, as well as .txts recursively')
-    # parser.add_argument('--match', 'm', required='True', help='UserId to match (Required)')
-
+    # Parser matcha dn replace arguments, required fields
+    parser.add_argument('match', help='UserId to match and replace (Required)')
+    parser.add_argument('replace', help='Replacement string for match values')
+    
     args = parser.parse_args()
+
+
     return args
 
 
@@ -27,5 +35,6 @@ def getcwd():
     return cwd
 
 
+# Maincontrol
 if __name__ == "__main__":
     sys.exit(main())
