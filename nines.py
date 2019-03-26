@@ -7,10 +7,9 @@ import argparse
 
 def main():
     args = argparser()
-    print(args.match)
-    print(args.replace)
+    # print(args.match)
     cwd = getcwd()
-    # print("mypathis: " + cwd)
+ 
 
     return 0
 
@@ -24,9 +23,21 @@ def argparser():
     
     args = parser.parse_args()
 
-
+    for key, value in vars(args).items():
+        if not checkArgsValidity(value):
+            print(value + " is an invalid " + key + " argument")
+            sys.exit()
     return args
 
+
+def checkArgsValidity(argument):
+    # Regex match Letters/Number ONLY on String
+    if re.match('^[A-Za-z0-9]*$', argument):
+        return True
+        print("true")
+    else:
+        return False
+        print("false")
 
 # Gets current workding dir 
 def getcwd():
