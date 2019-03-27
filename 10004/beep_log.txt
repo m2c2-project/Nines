@@ -1,0 +1,144 @@
+next beep: Mon Nov 19 19:10:00 EST 2018
+launch time: Mon Nov 19 15:20:01 EST 2018
+target launch time: Mon Nov 19 15:20:00 EST 2018
+-----
+next beep: Mon Nov 19 23:15:00 EST 2018
+launch time: Mon Nov 19 19:10:02 EST 2018
+target launch time: Mon Nov 19 19:10:00 EST 2018
+-----
+next beep: Tue Nov 20 10:55:00 EST 2018
+launch time: Mon Nov 19 23:15:01 EST 2018
+target launch time: Mon Nov 19 23:15:00 EST 2018
+-----
+next beep: Tue Nov 20 14:30:00 EST 2018
+launch time: Tue Nov 20 10:55:01 EST 2018
+target launch time: Tue Nov 20 10:55:00 EST 2018
+-----
+next beep: Tue Nov 20 18:15:00 EST 2018
+launch time: Tue Nov 20 14:30:02 EST 2018
+target launch time: Tue Nov 20 14:30:00 EST 2018
+-----
+next beep: Tue Nov 20 22:00:00 EST 2018
+launch time: Tue Nov 20 18:15:01 EST 2018
+target launch time: Tue Nov 20 18:15:00 EST 2018
+-----
+next beep: Wed Nov 21 11:40:00 EST 2018
+launch time: Tue Nov 20 22:00:01 EST 2018
+target launch time: Tue Nov 20 22:00:00 EST 2018
+-----
+next beep: Wed Nov 21 15:10:00 EST 2018
+launch time: Wed Nov 21 11:40:01 EST 2018
+target launch time: Wed Nov 21 11:40:00 EST 2018
+-----
+next beep: Wed Nov 21 18:55:00 EST 2018
+launch time: Wed Nov 21 15:10:02 EST 2018
+target launch time: Wed Nov 21 15:10:00 EST 2018
+-----
+next beep: Wed Nov 21 22:35:00 EST 2018
+launch time: Wed Nov 21 18:55:01 EST 2018
+target launch time: Wed Nov 21 18:55:00 EST 2018
+-----
+next beep: Thu Nov 22 11:55:00 EST 2018
+launch time: Wed Nov 21 22:35:01 EST 2018
+target launch time: Wed Nov 21 22:35:00 EST 2018
+-----
+next beep: Thu Nov 22 15:45:00 EST 2018
+launch time: Thu Nov 22 11:55:02 EST 2018
+target launch time: Thu Nov 22 11:55:00 EST 2018
+-----
+next beep: Thu Nov 22 19:25:00 EST 2018
+launch time: Thu Nov 22 15:45:01 EST 2018
+target launch time: Thu Nov 22 15:45:00 EST 2018
+-----
+next beep: Thu Nov 22 23:05:00 EST 2018
+launch time: Thu Nov 22 19:25:01 EST 2018
+target launch time: Thu Nov 22 19:25:00 EST 2018
+-----
+next beep: Fri Nov 23 12:00:00 EST 2018
+launch time: Thu Nov 22 23:05:01 EST 2018
+target launch time: Thu Nov 22 23:05:00 EST 2018
+-----
+next beep: Fri Nov 23 15:35:00 EST 2018
+launch time: Fri Nov 23 12:00:01 EST 2018
+target launch time: Fri Nov 23 12:00:00 EST 2018
+-----
+next beep: Fri Nov 23 19:15:00 EST 2018
+launch time: Fri Nov 23 15:35:01 EST 2018
+target launch time: Fri Nov 23 15:35:00 EST 2018
+-----
+next beep: Fri Nov 23 22:55:00 EST 2018
+launch time: Fri Nov 23 19:15:02 EST 2018
+target launch time: Fri Nov 23 19:15:00 EST 2018
+-----
+next beep: Sat Nov 24 10:45:00 EST 2018
+launch time: Fri Nov 23 22:55:01 EST 2018
+target launch time: Fri Nov 23 22:55:00 EST 2018
+-----
+next beep: Sat Nov 24 14:25:00 EST 2018
+launch time: Sat Nov 24 10:45:01 EST 2018
+target launch time: Sat Nov 24 10:45:00 EST 2018
+-----
+next beep: Sat Nov 24 18:30:00 EST 2018
+launch time: Sat Nov 24 14:25:02 EST 2018
+target launch time: Sat Nov 24 14:25:00 EST 2018
+-----
+next beep: Sat Nov 24 22:15:00 EST 2018
+launch time: Sat Nov 24 18:30:01 EST 2018
+target launch time: Sat Nov 24 18:30:00 EST 2018
+-----
+next beep: Sun Nov 25 11:30:00 EST 2018
+launch time: Sat Nov 24 22:15:01 EST 2018
+target launch time: Sat Nov 24 22:15:00 EST 2018
+-----
+next beep: Sun Nov 25 15:00:00 EST 2018
+launch time: Sun Nov 25 11:30:00 EST 2018
+target launch time: Sun Nov 25 11:30:00 EST 2018
+-----
+next beep: Sun Nov 25 18:45:00 EST 2018
+launch time: Sun Nov 25 15:00:02 EST 2018
+target launch time: Sun Nov 25 15:00:00 EST 2018
+-----
+next beep: Sun Nov 25 22:30:00 EST 2018
+launch time: Sun Nov 25 18:45:01 EST 2018
+target launch time: Sun Nov 25 18:45:00 EST 2018
+-----
+next beep: Mon Nov 26 11:15:00 EST 2018
+launch time: Sun Nov 25 22:30:01 EST 2018
+target launch time: Sun Nov 25 22:30:00 EST 2018
+-----
+next beep: Mon Nov 26 15:20:00 EST 2018
+launch time: Mon Nov 26 11:15:02 EST 2018
+target launch time: Mon Nov 26 11:15:00 EST 2018
+-----
+next beep: Mon Nov 26 19:10:00 EST 2018
+launch time: Mon Nov 26 15:20:01 EST 2018
+target launch time: Mon Nov 26 15:20:00 EST 2018
+-----
+next beep: Mon Nov 26 23:15:00 EST 2018
+launch time: Mon Nov 26 19:10:02 EST 2018
+target launch time: Mon Nov 26 19:10:00 EST 2018
+-----
+next beep: Tue Nov 27 10:55:00 EST 2018
+launch time: Mon Nov 26 23:15:01 EST 2018
+target launch time: Mon Nov 26 23:15:00 EST 2018
+-----
+next beep: Tue Nov 27 14:30:00 EST 2018
+launch time: Tue Nov 27 10:55:02 EST 2018
+target launch time: Tue Nov 27 10:55:00 EST 2018
+-----
+next beep: Tue Nov 27 18:15:00 EST 2018
+launch time: Tue Nov 27 14:30:01 EST 2018
+target launch time: Tue Nov 27 14:30:00 EST 2018
+-----
+next beep: Tue Nov 27 22:00:00 EST 2018
+launch time: Tue Nov 27 18:15:01 EST 2018
+target launch time: Tue Nov 27 18:15:00 EST 2018
+-----
+next beep: Wed Nov 28 11:40:00 EST 2018
+launch time: Tue Nov 27 22:00:01 EST 2018
+target launch time: Tue Nov 27 22:00:00 EST 2018
+-----
+next beep: Wed Nov 28 15:10:00 EST 2018
+launch time: Wed Nov 28 11:40:01 EST 2018
+target launch time: Wed Nov 28 11:40:00 EST 2018
+-----

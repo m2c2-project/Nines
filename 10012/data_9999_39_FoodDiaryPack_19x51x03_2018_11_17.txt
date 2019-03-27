@@ -1,0 +1,20 @@
+ID:9999
+Session:39
+Pack:FoodDiaryPack
+Start Date:2018/11/17
+Start Time: 19:24:28
+End Date:2018/11/17
+End Time:19:51:03
+Exit Status:NORMAL
+Exit Screen:what_I_ate_screen
+Build Date:7/13/18 10:20 AM
+Application Version:1.1
+Android Version:8.1.0
+Device ID:8a29ae8276427772
+Device Manufacturer:Xiaomi
+Device Model:Mi A1
+Launch Type:NORMAL_LAUNCH
+Beep File:beep_6_7.xml
+Target Beep Time:NOT SET
+Actual Beep Time:NOT SET
+Screen Trail:what_I_ate_screen

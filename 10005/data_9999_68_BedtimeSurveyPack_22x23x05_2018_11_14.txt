@@ -1,0 +1,42 @@
+ID:9999
+Session:68
+Pack:BedtimeSurveyPack
+Start Date:2018/11/14
+Start Time: 22:17:28
+End Date:2018/11/14
+End Time:22:23:05
+Exit Status:NORMAL
+Exit Screen:thank_you_screen
+Build Date:7/13/18 10:20 AM
+Application Version:1.1
+Android Version:8.1.0
+Device ID:f21b7e66553459ba
+Device Manufacturer:Xiaomi
+Device Model:Mi A1
+Launch Type:NORMAL_LAUNCH
+Beep File:beep_7_8.xml
+Target Beep Time:NOT SET
+Actual Beep Time:NOT SET
+Screen Trail:bedtime_intro>foodrecord_preprompt>feelings_intro>worried_screen>happy_screen>fatigue_screen>stress_screen>sad_screen>cognition_intro>cog_slow_screen>cog_foggy_screen>cog_sharp_screen>cog_conc_screen>TimePress_intro>TimePress_busy_screen>TimePress_distract_screen>food_intro_screen>food_yn_screen>food_log_screen>pa_intro_screen>pa_yn_screen>pa_whynot_screen>BehavWrapUp_intro>BehavWrapUp_care_screen>BehavWrapUp_foodchoices_screen>BehavWrapUp_foodenjoy_screen>BehavWrapUp_colds_screen>BehavWrapUp_family_screen>BehavWrapUp_PA_screen>BehavWrapUp_goals_screen>foodrecord_postprompt>thank_you_screen
+worried_now:62
+happy_now:39
+fatigue_now:44
+stress_now:66
+sad_now:43
+cog_slow:63
+cog_foggy:61
+cog_sharp:42
+cog_concentrate:43
+TimePress_busy:74
+TimePress_distract:67
+food_yn:yes
+food_log:ginger candy seltzer water
+pa_yn:no
+pa_whynot:reading+listening to music/radio
+BehavWrapUp_care:64
+BehavWrapUp_foodchoices:58
+BehavWrapUp_foodenjoy:60
+BehavWrapUp_colds:64
+BehavWrapUp_family:60
+BehavWrapUp_PA:39
+BehavWrapUp_goals:37

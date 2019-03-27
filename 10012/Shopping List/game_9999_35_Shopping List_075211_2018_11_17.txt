@@ -1,0 +1,20 @@
+game_name:Shopping List,user_id:9999,session:35,time:2018/11/17 07:51:14,trial_num:1,phase:1,item:cereal,target_price:2.37,choice:yes,judgement_RT:1765
+game_name:Shopping List,user_id:9999,session:35,time:2018/11/17 07:51:14,trial_num:2,phase:1,item:sponge,target_price:8.36,choice:no,judgement_RT:1337
+game_name:Shopping List,user_id:9999,session:35,time:2018/11/17 07:51:14,trial_num:3,phase:1,item:conditioner,target_price:5.42,choice:yes,judgement_RT:1454
+game_name:Shopping List,user_id:9999,session:35,time:2018/11/17 07:51:14,trial_num:4,phase:1,item:noodles,target_price:3.14,choice:yes,judgement_RT:1621
+game_name:Shopping List,user_id:9999,session:35,time:2018/11/17 07:51:14,trial_num:5,phase:1,item:lotion,target_price:9.28,choice:yes,judgement_RT:1889
+game_name:Shopping List,user_id:9999,session:35,time:2018/11/17 07:51:14,trial_num:6,phase:1,item:ramen,target_price:2.54,choice:yes,judgement_RT:1695
+game_name:Shopping List,user_id:9999,session:35,time:2018/11/17 07:51:14,trial_num:7,phase:1,item:salad,target_price:8.35,choice:no,judgement_RT:1568
+game_name:Shopping List,user_id:9999,session:35,time:2018/11/17 07:51:14,trial_num:8,phase:1,item:spinach,target_price:6.48,choice:yes,judgement_RT:1829
+game_name:Shopping List,user_id:9999,session:35,time:2018/11/17 07:51:14,trial_num:9,phase:1,item:vegetable oil,target_price:8.23,choice:yes,judgement_RT:1535
+game_name:Shopping List,user_id:9999,session:35,time:2018/11/17 07:51:14,trial_num:10,phase:1,item:blueberries,target_price:1.92,choice:yes,judgement_RT:1917
+game_name:Shopping List,user_id:9999,session:35,time:2018/11/17 07:51:14,trial_num:1,phase:2,item:blueberries,target_price:1.92,distractor_price:6.89,choice:1.92,choiceRT:2444
+game_name:Shopping List,user_id:9999,session:35,time:2018/11/17 07:51:14,trial_num:2,phase:2,item:ramen,target_price:2.54,distractor_price:9.45,choice:2.54,choiceRT:2651
+game_name:Shopping List,user_id:9999,session:35,time:2018/11/17 07:51:14,trial_num:3,phase:2,item:cereal,target_price:2.37,distractor_price:8.46,choice:2.37,choiceRT:2432
+game_name:Shopping List,user_id:9999,session:35,time:2018/11/17 07:51:14,trial_num:4,phase:2,item:sponge,target_price:8.36,distractor_price:2.97,choice:2.97,choiceRT:3901
+game_name:Shopping List,user_id:9999,session:35,time:2018/11/17 07:51:14,trial_num:5,phase:2,item:conditioner,target_price:5.42,distractor_price:3.61,choice:5.42,choiceRT:2406
+game_name:Shopping List,user_id:9999,session:35,time:2018/11/17 07:51:14,trial_num:6,phase:2,item:spinach,target_price:6.48,distractor_price:9.82,choice:9.82,choiceRT:3162
+game_name:Shopping List,user_id:9999,session:35,time:2018/11/17 07:51:14,trial_num:7,phase:2,item:noodles,target_price:3.14,distractor_price:5.37,choice:5.37,choiceRT:2688
+game_name:Shopping List,user_id:9999,session:35,time:2018/11/17 07:51:14,trial_num:8,phase:2,item:vegetable oil,target_price:8.23,distractor_price:6.71,choice:8.23,choiceRT:2765
+game_name:Shopping List,user_id:9999,session:35,time:2018/11/17 07:51:14,trial_num:9,phase:2,item:lotion,target_price:9.28,distractor_price:2.51,choice:2.51,choiceRT:3052
+game_name:Shopping List,user_id:9999,session:35,time:2018/11/17 07:51:14,trial_num:10,phase:2,item:salad,target_price:8.35,distractor_price:9.71,choice:9.71,choiceRT:2851

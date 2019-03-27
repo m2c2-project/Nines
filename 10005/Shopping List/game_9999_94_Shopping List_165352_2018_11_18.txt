@@ -1,0 +1,20 @@
+game_name:Shopping List,user_id:9999,session:94,time:2018/11/18 16:52:56,trial_num:1,phase:1,item:floss,target_price:9.64,choice:no,judgement_RT:1226
+game_name:Shopping List,user_id:9999,session:94,time:2018/11/18 16:52:56,trial_num:2,phase:1,item:bleach,target_price:6.37,choice:no,judgement_RT:1950
+game_name:Shopping List,user_id:9999,session:94,time:2018/11/18 16:52:56,trial_num:3,phase:1,item:rolls,target_price:7.34,choice:no,judgement_RT:1743
+game_name:Shopping List,user_id:9999,session:94,time:2018/11/18 16:52:56,trial_num:4,phase:1,item:pineapple,target_price:2.48,choice:yes,judgement_RT:1601
+game_name:Shopping List,user_id:9999,session:94,time:2018/11/18 16:52:56,trial_num:5,phase:1,item:spinach,target_price:8.51,choice:no,judgement_RT:1647
+game_name:Shopping List,user_id:9999,session:94,time:2018/11/18 16:52:56,trial_num:6,phase:1,item:plastic wrap,target_price:5.48,choice:yes,judgement_RT:1183
+game_name:Shopping List,user_id:9999,session:94,time:2018/11/18 16:52:56,trial_num:7,phase:1,item:conditioner,target_price:6.73,choice:yes,judgement_RT:998
+game_name:Shopping List,user_id:9999,session:94,time:2018/11/18 16:52:56,trial_num:8,phase:1,item:salad,target_price:9.38,choice:yes,judgement_RT:1716
+game_name:Shopping List,user_id:9999,session:94,time:2018/11/18 16:52:56,trial_num:9,phase:1,item:waffles,target_price:4.91,choice:no,judgement_RT:2144
+game_name:Shopping List,user_id:9999,session:94,time:2018/11/18 16:52:56,trial_num:10,phase:1,item:dish soap,target_price:4.37,choice:yes,judgement_RT:1594
+game_name:Shopping List,user_id:9999,session:94,time:2018/11/18 16:52:56,trial_num:1,phase:2,item:plastic wrap,target_price:5.48,distractor_price:9.57,choice:5.48,choiceRT:3067
+game_name:Shopping List,user_id:9999,session:94,time:2018/11/18 16:52:56,trial_num:2,phase:2,item:spinach,target_price:8.51,distractor_price:1.38,choice:8.51,choiceRT:2620
+game_name:Shopping List,user_id:9999,session:94,time:2018/11/18 16:52:56,trial_num:3,phase:2,item:salad,target_price:9.38,distractor_price:7.61,choice:9.38,choiceRT:2008
+game_name:Shopping List,user_id:9999,session:94,time:2018/11/18 16:52:56,trial_num:4,phase:2,item:bleach,target_price:6.37,distractor_price:2.93,choice:2.93,choiceRT:3935
+game_name:Shopping List,user_id:9999,session:94,time:2018/11/18 16:52:56,trial_num:5,phase:2,item:rolls,target_price:7.34,distractor_price:5.87,choice:7.34,choiceRT:3543
+game_name:Shopping List,user_id:9999,session:94,time:2018/11/18 16:52:56,trial_num:6,phase:2,item:floss,target_price:9.64,distractor_price:1.37,choice:9.64,choiceRT:2796
+game_name:Shopping List,user_id:9999,session:94,time:2018/11/18 16:52:56,trial_num:7,phase:2,item:conditioner,target_price:6.73,distractor_price:1.97,choice:6.73,choiceRT:1743
+game_name:Shopping List,user_id:9999,session:94,time:2018/11/18 16:52:56,trial_num:8,phase:2,item:waffles,target_price:4.91,distractor_price:6.29,choice:6.29,choiceRT:2429
+game_name:Shopping List,user_id:9999,session:94,time:2018/11/18 16:52:56,trial_num:9,phase:2,item:pineapple,target_price:2.48,distractor_price:4.65,choice:2.48,choiceRT:3188
+game_name:Shopping List,user_id:9999,session:94,time:2018/11/18 16:52:56,trial_num:10,phase:2,item:dish soap,target_price:4.37,distractor_price:2.39,choice:4.37,choiceRT:2619

@@ -1,0 +1,20 @@
+ID:9999
+Session:121
+Pack:BedtimeSurveyPack
+Start Date:2018/11/22
+Start Time: 02:05:04
+End Date:2018/11/22
+End Time:02:05:07
+Exit Status:GO_MENU start_menu
+Exit Screen:bedtime_intro
+Build Date:7/13/18 10:20 AM
+Application Version:1.1
+Android Version:8.1.0
+Device ID:f21b7e66553459ba
+Device Manufacturer:Xiaomi
+Device Model:Mi A1
+Launch Type:NORMAL_LAUNCH
+Beep File:beep_7_8.xml
+Target Beep Time:NOT SET
+Actual Beep Time:NOT SET
+Screen Trail:bedtime_intro

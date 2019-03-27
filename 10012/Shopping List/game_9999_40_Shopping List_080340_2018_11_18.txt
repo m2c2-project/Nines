@@ -1,0 +1,20 @@
+game_name:Shopping List,user_id:9999,session:40,time:2018/11/18 08:02:49,trial_num:1,phase:1,item:zucchini,target_price:5.74,choice:no,judgement_RT:2905
+game_name:Shopping List,user_id:9999,session:40,time:2018/11/18 08:02:49,trial_num:2,phase:1,item:spinach,target_price:4.76,choice:no,judgement_RT:2248
+game_name:Shopping List,user_id:9999,session:40,time:2018/11/18 08:02:49,trial_num:3,phase:1,item:paper towels,target_price:1.64,choice:yes,judgement_RT:1689
+game_name:Shopping List,user_id:9999,session:40,time:2018/11/18 08:02:49,trial_num:4,phase:1,item:light bulbs,target_price:3.18,choice:yes,judgement_RT:1649
+game_name:Shopping List,user_id:9999,session:40,time:2018/11/18 08:02:49,trial_num:5,phase:1,item:floss,target_price:1.87,choice:yes,judgement_RT:2396
+game_name:Shopping List,user_id:9999,session:40,time:2018/11/18 08:02:49,trial_num:6,phase:1,item:sandwich,target_price:7.43,choice:no,judgement_RT:2585
+game_name:Shopping List,user_id:9999,session:40,time:2018/11/18 08:02:49,trial_num:7,phase:1,item:sponge,target_price:4.65,choice:no,judgement_RT:2176
+game_name:Shopping List,user_id:9999,session:40,time:2018/11/18 08:02:49,trial_num:8,phase:1,item:rolls,target_price:1.37,choice:yes,judgement_RT:1983
+game_name:Shopping List,user_id:9999,session:40,time:2018/11/18 08:02:49,trial_num:9,phase:1,item:napkins,target_price:8.63,choice:no,judgement_RT:1686
+game_name:Shopping List,user_id:9999,session:40,time:2018/11/18 08:02:49,trial_num:10,phase:1,item:dryer sheets,target_price:9.13,choice:yes,judgement_RT:2528
+game_name:Shopping List,user_id:9999,session:40,time:2018/11/18 08:02:49,trial_num:1,phase:2,item:zucchini,target_price:5.74,distractor_price:8.94,choice:5.74,choiceRT:3682
+game_name:Shopping List,user_id:9999,session:40,time:2018/11/18 08:02:49,trial_num:2,phase:2,item:sandwich,target_price:7.43,distractor_price:9.58,choice:9.58,choiceRT:3069
+game_name:Shopping List,user_id:9999,session:40,time:2018/11/18 08:02:49,trial_num:3,phase:2,item:light bulbs,target_price:3.18,distractor_price:6.28,choice:6.28,choiceRT:2905
+game_name:Shopping List,user_id:9999,session:40,time:2018/11/18 08:02:49,trial_num:4,phase:2,item:sponge,target_price:4.65,distractor_price:6.17,choice:6.17,choiceRT:2733
+game_name:Shopping List,user_id:9999,session:40,time:2018/11/18 08:02:49,trial_num:5,phase:2,item:rolls,target_price:1.37,distractor_price:5.93,choice:1.37,choiceRT:2544
+game_name:Shopping List,user_id:9999,session:40,time:2018/11/18 08:02:49,trial_num:6,phase:2,item:paper towels,target_price:1.64,distractor_price:9.54,choice:9.54,choiceRT:3562
+game_name:Shopping List,user_id:9999,session:40,time:2018/11/18 08:02:49,trial_num:7,phase:2,item:dryer sheets,target_price:9.13,distractor_price:2.14,choice:9.13,choiceRT:2432
+game_name:Shopping List,user_id:9999,session:40,time:2018/11/18 08:02:49,trial_num:8,phase:2,item:floss,target_price:1.87,distractor_price:8.37,choice:8.37,choiceRT:3131
+game_name:Shopping List,user_id:9999,session:40,time:2018/11/18 08:02:49,trial_num:9,phase:2,item:napkins,target_price:8.63,distractor_price:2.38,choice:2.38,choiceRT:3569
+game_name:Shopping List,user_id:9999,session:40,time:2018/11/18 08:02:49,trial_num:10,phase:2,item:spinach,target_price:4.76,distractor_price:2.96,choice:4.76,choiceRT:2268

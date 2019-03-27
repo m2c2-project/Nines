@@ -1,0 +1,36 @@
+ID:9999
+Session:139
+Pack:BeepedSurveyPack
+Start Date:2018/11/26
+Start Time: 21:15:56
+End Date:2018/11/26
+End Time:21:20:28
+Exit Status:MINIMIZE/FORCE_CLOSE
+Exit Screen:game_Symbol___game
+Build Date:7/13/18 10:20 AM
+Application Version:1.1
+Android Version:8.1.0
+Device ID:f21b7e66553459ba
+Device Manufacturer:Xiaomi
+Device Model:Mi A1
+Launch Type:BEEPED_LAUNCH
+Beep File:beep_7_8.xml
+Target Beep Time:Mon Nov 26 21:15:00 EST 2018
+Actual Beep Time:Mon Nov 26 21:15:01 EST 2018
+Screen Trail:beeped_intro>feelings_intro>worried_screen>happy_screen>fatigue_screen>stress_screen>sad_screen>cognition_intro>cog_slow_screen>cog_foggy_screen>cog_sharp_screen>cog_conc_screen>TimePress_intro>TimePress_busy_screen>TimePress_distract_screen>food_intro_screen>food_yn_screen>food_log_screen>pa_intro_screen>pa_yn_screen>pa_intensity_screen>games_intro_screen>game_Symbol>game_Symbol___game
+worried_now:65
+happy_now:40
+fatigue_now:73
+stress_now:71
+sad_now:63
+cog_slow:63
+cog_foggy:66
+cog_sharp:40
+cog_concentrate:40
+TimePress_busy:41
+TimePress_distract:71
+food_yn:yes
+food_log:turkey salad pita nectarine tonic
+pa_yn:yes
+pa_intensity:light
+pa_duration:40

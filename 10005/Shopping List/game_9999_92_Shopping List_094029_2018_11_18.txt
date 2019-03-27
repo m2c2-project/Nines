@@ -1,0 +1,20 @@
+game_name:Shopping List,user_id:9999,session:92,time:2018/11/18 09:38:42,trial_num:1,phase:1,item:dish soap,target_price:9.27,choice:yes,judgement_RT:2524
+game_name:Shopping List,user_id:9999,session:92,time:2018/11/18 09:38:42,trial_num:2,phase:1,item:salsa,target_price:4.12,choice:yes,judgement_RT:1418
+game_name:Shopping List,user_id:9999,session:92,time:2018/11/18 09:38:42,trial_num:3,phase:1,item:bleach,target_price:3.92,choice:yes,judgement_RT:1998
+game_name:Shopping List,user_id:9999,session:92,time:2018/11/18 09:38:42,trial_num:4,phase:1,item:lotion,target_price:8.75,choice:yes,judgement_RT:1336
+game_name:Shopping List,user_id:9999,session:92,time:2018/11/18 09:38:42,trial_num:5,phase:1,item:toilet paper,target_price:9.76,choice:yes,judgement_RT:1375
+game_name:Shopping List,user_id:9999,session:92,time:2018/11/18 09:38:42,trial_num:6,phase:1,item:cereal,target_price:4.16,choice:yes,judgement_RT:1100
+game_name:Shopping List,user_id:9999,session:92,time:2018/11/18 09:38:42,trial_num:7,phase:1,item:salad,target_price:3.12,choice:yes,judgement_RT:1381
+game_name:Shopping List,user_id:9999,session:92,time:2018/11/18 09:38:42,trial_num:8,phase:1,item:blueberries,target_price:8.73,choice:no,judgement_RT:1445
+game_name:Shopping List,user_id:9999,session:92,time:2018/11/18 09:38:42,trial_num:9,phase:1,item:sandwich,target_price:2.43,choice:yes,judgement_RT:1533
+game_name:Shopping List,user_id:9999,session:92,time:2018/11/18 09:38:42,trial_num:10,phase:1,item:cheeseburger,target_price:1.82,choice:yes,judgement_RT:1620
+game_name:Shopping List,user_id:9999,session:92,time:2018/11/18 09:38:42,trial_num:1,phase:2,item:salad,target_price:3.12,distractor_price:7.35,choice:7.35,choiceRT:3895
+game_name:Shopping List,user_id:9999,session:92,time:2018/11/18 09:38:42,trial_num:2,phase:2,item:dish soap,target_price:9.27,distractor_price:3.47,choice:9.27,choiceRT:2313
+game_name:Shopping List,user_id:9999,session:92,time:2018/11/18 09:38:42,trial_num:3,phase:2,item:cereal,target_price:4.16,distractor_price:9.23,choice:9.23,choiceRT:2170
+game_name:Shopping List,user_id:9999,session:92,time:2018/11/18 09:38:42,trial_num:4,phase:2,item:toilet paper,target_price:9.76,distractor_price:7.59,choice:9.76,choiceRT:3140
+game_name:Shopping List,user_id:9999,session:92,time:2018/11/18 09:38:42,trial_num:5,phase:2,item:salsa,target_price:4.12,distractor_price:1.34,choice:4.12,choiceRT:3591
+game_name:Shopping List,user_id:9999,session:92,time:2018/11/18 09:38:42,trial_num:6,phase:2,item:cheeseburger,target_price:1.82,distractor_price:3.49,choice:1.82,choiceRT:3598
+game_name:Shopping List,user_id:9999,session:92,time:2018/11/18 09:38:42,trial_num:7,phase:2,item:sandwich,target_price:2.43,distractor_price:9.51,choice:9.51,choiceRT:8906
+game_name:Shopping List,user_id:9999,session:92,time:2018/11/18 09:38:42,trial_num:8,phase:2,item:bleach,target_price:3.92,distractor_price:6.84,choice:3.92,choiceRT:2620
+game_name:Shopping List,user_id:9999,session:92,time:2018/11/18 09:38:42,trial_num:9,phase:2,item:lotion,target_price:8.75,distractor_price:6.97,choice:8.75,choiceRT:2614
+game_name:Shopping List,user_id:9999,session:92,time:2018/11/18 09:38:42,trial_num:10,phase:2,item:blueberries,target_price:8.73,distractor_price:2.95,choice:8.73,choiceRT:3655

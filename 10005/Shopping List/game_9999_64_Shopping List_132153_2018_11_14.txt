@@ -1,0 +1,20 @@
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/14 13:20:25,trial_num:1,phase:1,item:spinach,target_price:7.28,choice:no,judgement_RT:1900
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/14 13:20:25,trial_num:2,phase:1,item:light bulbs,target_price:3.41,choice:yes,judgement_RT:1377
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/14 13:20:25,trial_num:3,phase:1,item:paper towels,target_price:7.46,choice:yes,judgement_RT:1365
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/14 13:20:25,trial_num:4,phase:1,item:cashews,target_price:8.52,choice:yes,judgement_RT:1857
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/14 13:20:25,trial_num:5,phase:1,item:celery,target_price:9.84,choice:no,judgement_RT:1394
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/14 13:20:25,trial_num:6,phase:1,item:bleach,target_price:5.93,choice:no,judgement_RT:1593
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/14 13:20:25,trial_num:7,phase:1,item:sandwich,target_price:8.15,choice:no,judgement_RT:1521
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/14 13:20:25,trial_num:8,phase:1,item:cucumber,target_price:6.15,choice:no,judgement_RT:2175
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/14 13:20:25,trial_num:9,phase:1,item:plastic wrap,target_price:9.32,choice:no,judgement_RT:2083
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/14 13:20:25,trial_num:10,phase:1,item:salsa,target_price:6.31,choice:no,judgement_RT:1903
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/14 13:20:25,trial_num:1,phase:2,item:paper towels,target_price:7.46,distractor_price:1.39,choice:7.46,choiceRT:2928
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/14 13:20:25,trial_num:2,phase:2,item:cashews,target_price:8.52,distractor_price:5.37,choice:8.52,choiceRT:1795
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/14 13:20:25,trial_num:3,phase:2,item:light bulbs,target_price:3.41,distractor_price:5.69,choice:3.41,choiceRT:3094
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/14 13:20:25,trial_num:4,phase:2,item:plastic wrap,target_price:9.32,distractor_price:1.87,choice:9.32,choiceRT:2503
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/14 13:20:25,trial_num:5,phase:2,item:salsa,target_price:6.31,distractor_price:9.21,choice:9.21,choiceRT:2014
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/14 13:20:25,trial_num:6,phase:2,item:celery,target_price:9.84,distractor_price:4.19,choice:9.84,choiceRT:3529
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/14 13:20:25,trial_num:7,phase:2,item:spinach,target_price:7.28,distractor_price:2.61,choice:7.28,choiceRT:3254
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/14 13:20:25,trial_num:8,phase:2,item:cucumber,target_price:6.15,distractor_price:3.26,choice:6.15,choiceRT:5784
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/14 13:20:25,trial_num:9,phase:2,item:sandwich,target_price:8.15,distractor_price:2.87,choice:8.15,choiceRT:2210
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/14 13:20:25,trial_num:10,phase:2,item:bleach,target_price:5.93,distractor_price:2.46,choice:5.93,choiceRT:3894

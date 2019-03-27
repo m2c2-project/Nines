@@ -1,0 +1,20 @@
+game_name:Shopping List,user_id:9999,session:70,time:2018/11/15 08:45:13,trial_num:1,phase:1,item:dryer sheets,target_price:3.14,choice:yes,judgement_RT:1605
+game_name:Shopping List,user_id:9999,session:70,time:2018/11/15 08:45:13,trial_num:2,phase:1,item:bleach,target_price:7.59,choice:no,judgement_RT:2225
+game_name:Shopping List,user_id:9999,session:70,time:2018/11/15 08:45:13,trial_num:3,phase:1,item:sponge,target_price:9.56,choice:no,judgement_RT:1793
+game_name:Shopping List,user_id:9999,session:70,time:2018/11/15 08:45:13,trial_num:4,phase:1,item:cereal,target_price:8.65,choice:no,judgement_RT:2912
+game_name:Shopping List,user_id:9999,session:70,time:2018/11/15 08:45:13,trial_num:5,phase:1,item:aluminum foil,target_price:8.96,choice:no,judgement_RT:2201
+game_name:Shopping List,user_id:9999,session:70,time:2018/11/15 08:45:13,trial_num:6,phase:1,item:plastic wrap,target_price:5.31,choice:yes,judgement_RT:2017
+game_name:Shopping List,user_id:9999,session:70,time:2018/11/15 08:45:13,trial_num:7,phase:1,item:celery,target_price:9.14,choice:no,judgement_RT:1695
+game_name:Shopping List,user_id:9999,session:70,time:2018/11/15 08:45:13,trial_num:8,phase:1,item:ramen,target_price:9.86,choice:no,judgement_RT:1800
+game_name:Shopping List,user_id:9999,session:70,time:2018/11/15 08:45:13,trial_num:9,phase:1,item:floss,target_price:2.59,choice:yes,judgement_RT:2492
+game_name:Shopping List,user_id:9999,session:70,time:2018/11/15 08:45:13,trial_num:10,phase:1,item:cooking spray,target_price:6.39,choice:yes,judgement_RT:2226
+game_name:Shopping List,user_id:9999,session:70,time:2018/11/15 08:45:13,trial_num:1,phase:2,item:dryer sheets,target_price:3.14,distractor_price:6.85,choice:3.14,choiceRT:7172
+game_name:Shopping List,user_id:9999,session:70,time:2018/11/15 08:45:13,trial_num:2,phase:2,item:celery,target_price:9.14,distractor_price:1.43,choice:9.14,choiceRT:7871
+game_name:Shopping List,user_id:9999,session:70,time:2018/11/15 08:45:13,trial_num:3,phase:2,item:cereal,target_price:8.65,distractor_price:6.49,choice:6.49,choiceRT:5744
+game_name:Shopping List,user_id:9999,session:70,time:2018/11/15 08:45:13,trial_num:4,phase:2,item:aluminum foil,target_price:8.96,distractor_price:2.81,choice:8.96,choiceRT:3006
+game_name:Shopping List,user_id:9999,session:70,time:2018/11/15 08:45:13,trial_num:5,phase:2,item:sponge,target_price:9.56,distractor_price:4.75,choice:9.56,choiceRT:2289
+game_name:Shopping List,user_id:9999,session:70,time:2018/11/15 08:45:13,trial_num:6,phase:2,item:bleach,target_price:7.59,distractor_price:3.47,choice:7.59,choiceRT:3498
+game_name:Shopping List,user_id:9999,session:70,time:2018/11/15 08:45:13,trial_num:7,phase:2,item:ramen,target_price:9.86,distractor_price:4.85,choice:9.86,choiceRT:2229
+game_name:Shopping List,user_id:9999,session:70,time:2018/11/15 08:45:13,trial_num:8,phase:2,item:plastic wrap,target_price:5.31,distractor_price:3.86,choice:5.31,choiceRT:14260
+game_name:Shopping List,user_id:9999,session:70,time:2018/11/15 08:45:13,trial_num:9,phase:2,item:cooking spray,target_price:6.39,distractor_price:1.78,choice:6.39,choiceRT:3258
+game_name:Shopping List,user_id:9999,session:70,time:2018/11/15 08:45:13,trial_num:10,phase:2,item:floss,target_price:2.59,distractor_price:9.21,choice:2.59,choiceRT:3563

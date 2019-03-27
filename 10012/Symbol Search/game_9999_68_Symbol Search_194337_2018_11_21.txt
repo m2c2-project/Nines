@@ -1,0 +1,12 @@
+game_name:Symbol Search,user_id:9999,session:68,time:2018/11/21 19:39:16,trial_num:1,trial_type:NORMAL,response_time:2269,user_response:1,correct_response:1
+game_name:Symbol Search,user_id:9999,session:68,time:2018/11/21 19:39:18,trial_num:2,trial_type:NORMAL,response_time:1723,user_response:0,correct_response:0
+game_name:Symbol Search,user_id:9999,session:68,time:2018/11/21 19:39:20,trial_num:3,trial_type:NORMAL,response_time:1671,user_response:0,correct_response:0
+game_name:Symbol Search,user_id:9999,session:68,time:2018/11/21 19:39:22,trial_num:4,trial_type:LURE,response_time:1138,user_response:1,correct_response:1
+game_name:Symbol Search,user_id:9999,session:68,time:2018/11/21 19:39:24,trial_num:5,trial_type:NORMAL,response_time:1938,user_response:0,correct_response:0
+game_name:Symbol Search,user_id:9999,session:68,time:2018/11/21 19:39:28,trial_num:6,trial_type:NORMAL,response_time:3258,user_response:0,correct_response:0
+game_name:Symbol Search,user_id:9999,session:68,time:2018/11/21 19:39:31,trial_num:7,trial_type:LURE,response_time:2273,user_response:1,correct_response:1
+game_name:Symbol Search,user_id:9999,session:68,time:2018/11/21 19:39:33,trial_num:8,trial_type:LURE,response_time:1438,user_response:1,correct_response:1
+game_name:Symbol Search,user_id:9999,session:68,time:2018/11/21 19:39:36,trial_num:9,trial_type:NORMAL,response_time:2540,user_response:1,correct_response:1
+game_name:Symbol Search,user_id:9999,session:68,time:2018/11/21 19:39:38,trial_num:10,trial_type:LURE,response_time:1403,user_response:0,correct_response:0
+game_name:Symbol Search,user_id:9999,session:68,time:2018/11/21 19:39:41,trial_num:11,trial_type:LURE,response_time:2673,user_response:0,correct_response:0
+game_name:Symbol Search,user_id:9999,session:68,time:2018/11/21 19:39:43,trial_num:12,trial_type:LURE,response_time:1671,user_response:1,correct_response:1

@@ -1,0 +1,20 @@
+game_name:Shopping List,user_id:9999,session:101,time:2018/11/19 13:28:16,trial_num:1,phase:1,item:batteries,target_price:8.32,choice:yes,judgement_RT:1347
+game_name:Shopping List,user_id:9999,session:101,time:2018/11/19 13:28:16,trial_num:2,phase:1,item:noodles,target_price:3.74,choice:yes,judgement_RT:1520
+game_name:Shopping List,user_id:9999,session:101,time:2018/11/19 13:28:16,trial_num:3,phase:1,item:detergent,target_price:2.59,choice:yes,judgement_RT:1881
+game_name:Shopping List,user_id:9999,session:101,time:2018/11/19 13:28:16,trial_num:4,phase:1,item:light bulbs,target_price:1.73,choice:yes,judgement_RT:1196
+game_name:Shopping List,user_id:9999,session:101,time:2018/11/19 13:28:16,trial_num:5,phase:1,item:ramen,target_price:5.19,choice:yes,judgement_RT:1714
+game_name:Shopping List,user_id:9999,session:101,time:2018/11/19 13:28:16,trial_num:6,phase:1,item:dish soap,target_price:6.39,choice:yes,judgement_RT:1499
+game_name:Shopping List,user_id:9999,session:101,time:2018/11/19 13:28:16,trial_num:7,phase:1,item:bleach,target_price:6.18,choice:yes,judgement_RT:1544
+game_name:Shopping List,user_id:9999,session:101,time:2018/11/19 13:28:16,trial_num:8,phase:1,item:limes,target_price:3.86,choice:yes,judgement_RT:1812
+game_name:Shopping List,user_id:9999,session:101,time:2018/11/19 13:28:16,trial_num:9,phase:1,item:aluminum foil,target_price:4.79,choice:yes,judgement_RT:1548
+game_name:Shopping List,user_id:9999,session:101,time:2018/11/19 13:28:16,trial_num:10,phase:1,item:spinach,target_price:1.24,choice:yes,judgement_RT:1568
+game_name:Shopping List,user_id:9999,session:101,time:2018/11/19 13:28:16,trial_num:1,phase:2,item:batteries,target_price:8.32,distractor_price:3.85,choice:8.32,choiceRT:2990
+game_name:Shopping List,user_id:9999,session:101,time:2018/11/19 13:28:16,trial_num:2,phase:2,item:bleach,target_price:6.18,distractor_price:7.38,choice:6.18,choiceRT:4413
+game_name:Shopping List,user_id:9999,session:101,time:2018/11/19 13:28:16,trial_num:3,phase:2,item:noodles,target_price:3.74,distractor_price:7.58,choice:3.74,choiceRT:4312
+game_name:Shopping List,user_id:9999,session:101,time:2018/11/19 13:28:16,trial_num:4,phase:2,item:limes,target_price:3.86,distractor_price:2.41,choice:3.86,choiceRT:2168
+game_name:Shopping List,user_id:9999,session:101,time:2018/11/19 13:28:16,trial_num:5,phase:2,item:aluminum foil,target_price:4.79,distractor_price:1.76,choice:4.79,choiceRT:3448
+game_name:Shopping List,user_id:9999,session:101,time:2018/11/19 13:28:16,trial_num:6,phase:2,item:dish soap,target_price:6.39,distractor_price:4.38,choice:6.39,choiceRT:2337
+game_name:Shopping List,user_id:9999,session:101,time:2018/11/19 13:28:16,trial_num:7,phase:2,item:detergent,target_price:2.59,distractor_price:6.24,choice:6.24,choiceRT:3228
+game_name:Shopping List,user_id:9999,session:101,time:2018/11/19 13:28:16,trial_num:8,phase:2,item:light bulbs,target_price:1.73,distractor_price:6.28,choice:1.73,choiceRT:2255
+game_name:Shopping List,user_id:9999,session:101,time:2018/11/19 13:28:16,trial_num:9,phase:2,item:spinach,target_price:1.24,distractor_price:9.17,choice:1.24,choiceRT:5797
+game_name:Shopping List,user_id:9999,session:101,time:2018/11/19 13:28:16,trial_num:10,phase:2,item:ramen,target_price:5.19,distractor_price:7.95,choice:5.19,choiceRT:2600

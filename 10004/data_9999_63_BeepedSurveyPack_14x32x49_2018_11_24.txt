@@ -1,0 +1,35 @@
+ID:9999
+Session:63
+Pack:BeepedSurveyPack
+Start Date:2018/11/24
+Start Time: 14:25:17
+End Date:2018/11/24
+End Time:14:32:49
+Exit Status:NORMAL
+Exit Screen:thank_you_screen
+Build Date:7/13/18 10:20 AM
+Application Version:1.1
+Android Version:8.1.0
+Device ID:3bc398e2af929ae6
+Device Manufacturer:Xiaomi
+Device Model:Mi A1
+Launch Type:BEEPED_LAUNCH
+Beep File:beep_9_10.xml
+Target Beep Time:Sat Nov 24 14:25:00 EST 2018
+Actual Beep Time:Sat Nov 24 14:25:02 EST 2018
+Screen Trail:beeped_intro>feelings_intro>worried_screen>happy_screen>fatigue_screen>stress_screen>sad_screen>cognition_intro>cog_slow_screen>cog_foggy_screen>cog_sharp_screen>cog_conc_screen>TimePress_intro>TimePress_busy_screen>TimePress_distract_screen>food_intro_screen>food_yn_screen>food_log_screen>pa_intro_screen>food_log_screen>pa_intro_screen>pa_yn_screen>pa_whynot_screen>games_intro_screen>game_Symbol>game_Symbol___game>game_DotMemory>game_DotMemory___game>game_MemBinding>game_MemBinding___game>game_ShoppingList>game_ShoppingList___game>game_RSpan>game_RSpan___game>thank_you_screen
+worried_now:10
+happy_now:90
+fatigue_now:13
+stress_now:52
+sad_now:5
+cog_slow:8
+cog_foggy:3
+cog_sharp:99
+cog_concentrate:87
+TimePress_busy:100
+TimePress_distract:13
+food_yn:yes
+food_log:turkey sausage and cheese on bun
+pa_yn:no
+pa_whynot:hobby

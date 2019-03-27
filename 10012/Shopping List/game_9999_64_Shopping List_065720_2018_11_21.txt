@@ -1,0 +1,20 @@
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/21 06:56:34,trial_num:1,phase:1,item:cucumber,target_price:3.71,choice:no,judgement_RT:1930
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/21 06:56:34,trial_num:2,phase:1,item:dryer sheets,target_price:6.14,choice:yes,judgement_RT:1697
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/21 06:56:34,trial_num:3,phase:1,item:celery,target_price:3.49,choice:yes,judgement_RT:1677
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/21 06:56:34,trial_num:4,phase:1,item:napkins,target_price:8.12,choice:no,judgement_RT:1469
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/21 06:56:34,trial_num:5,phase:1,item:limes,target_price:9.28,choice:no,judgement_RT:1459
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/21 06:56:34,trial_num:6,phase:1,item:aspirin,target_price:1.76,choice:yes,judgement_RT:1641
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/21 06:56:34,trial_num:7,phase:1,item:ramen,target_price:6.15,choice:no,judgement_RT:1298
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/21 06:56:34,trial_num:8,phase:1,item:cooking spray,target_price:9.53,choice:yes,judgement_RT:1875
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/21 06:56:34,trial_num:9,phase:1,item:spinach,target_price:7.26,choice:no,judgement_RT:1291
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/21 06:56:34,trial_num:10,phase:1,item:trash bags,target_price:9.56,choice:yes,judgement_RT:1414
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/21 06:56:34,trial_num:1,phase:2,item:ramen,target_price:6.15,distractor_price:1.25,choice:6.15,choiceRT:3076
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/21 06:56:34,trial_num:2,phase:2,item:limes,target_price:9.28,distractor_price:7.34,choice:9.28,choiceRT:2384
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/21 06:56:34,trial_num:3,phase:2,item:cucumber,target_price:3.71,distractor_price:8.39,choice:3.71,choiceRT:2619
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/21 06:56:34,trial_num:4,phase:2,item:celery,target_price:3.49,distractor_price:9.67,choice:3.49,choiceRT:3871
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/21 06:56:34,trial_num:5,phase:2,item:spinach,target_price:7.26,distractor_price:8.75,choice:7.26,choiceRT:2570
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/21 06:56:34,trial_num:6,phase:2,item:trash bags,target_price:9.56,distractor_price:5.81,choice:9.56,choiceRT:3108
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/21 06:56:34,trial_num:7,phase:2,item:aspirin,target_price:1.76,distractor_price:9.12,choice:1.76,choiceRT:3003
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/21 06:56:34,trial_num:8,phase:2,item:dryer sheets,target_price:6.14,distractor_price:3.72,choice:6.14,choiceRT:2884
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/21 06:56:34,trial_num:9,phase:2,item:cooking spray,target_price:9.53,distractor_price:1.94,choice:9.53,choiceRT:2379
+game_name:Shopping List,user_id:9999,session:64,time:2018/11/21 06:56:34,trial_num:10,phase:2,item:napkins,target_price:8.12,distractor_price:4.82,choice:8.12,choiceRT:2959

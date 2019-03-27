@@ -1,0 +1,20 @@
+game_name:Shopping List,user_id:9999,session:102,time:2018/11/19 17:18:17,trial_num:1,phase:1,item:floss,target_price:6.94,choice:yes,judgement_RT:1261
+game_name:Shopping List,user_id:9999,session:102,time:2018/11/19 17:18:17,trial_num:2,phase:1,item:salad,target_price:3.75,choice:yes,judgement_RT:882
+game_name:Shopping List,user_id:9999,session:102,time:2018/11/19 17:18:17,trial_num:3,phase:1,item:sponge,target_price:9.54,choice:no,judgement_RT:1332
+game_name:Shopping List,user_id:9999,session:102,time:2018/11/19 17:18:17,trial_num:4,phase:1,item:salsa,target_price:6.27,choice:NONE_SELECTED,judgement_RT:-1
+game_name:Shopping List,user_id:9999,session:102,time:2018/11/19 17:18:17,trial_num:5,phase:1,item:waffles,target_price:1.26,choice:no,judgement_RT:2472
+game_name:Shopping List,user_id:9999,session:102,time:2018/11/19 17:18:17,trial_num:6,phase:1,item:almonds,target_price:3.94,choice:NONE_SELECTED,judgement_RT:-1
+game_name:Shopping List,user_id:9999,session:102,time:2018/11/19 17:18:17,trial_num:7,phase:1,item:light bulbs,target_price:6.23,choice:yes,judgement_RT:1436
+game_name:Shopping List,user_id:9999,session:102,time:2018/11/19 17:18:17,trial_num:8,phase:1,item:paper towels,target_price:2.37,choice:NONE_SELECTED,judgement_RT:-1
+game_name:Shopping List,user_id:9999,session:102,time:2018/11/19 17:18:17,trial_num:9,phase:1,item:sandwich,target_price:2.81,choice:yes,judgement_RT:1283
+game_name:Shopping List,user_id:9999,session:102,time:2018/11/19 17:18:17,trial_num:10,phase:1,item:rolls,target_price:5.38,choice:yes,judgement_RT:948
+game_name:Shopping List,user_id:9999,session:102,time:2018/11/19 17:18:17,trial_num:1,phase:2,item:paper towels,target_price:2.37,distractor_price:4.75,choice:2.37,choiceRT:2082
+game_name:Shopping List,user_id:9999,session:102,time:2018/11/19 17:18:17,trial_num:2,phase:2,item:waffles,target_price:1.26,distractor_price:2.75,choice:1.26,choiceRT:2017
+game_name:Shopping List,user_id:9999,session:102,time:2018/11/19 17:18:17,trial_num:3,phase:2,item:light bulbs,target_price:6.23,distractor_price:8.36,choice:6.23,choiceRT:1804
+game_name:Shopping List,user_id:9999,session:102,time:2018/11/19 17:18:17,trial_num:4,phase:2,item:sponge,target_price:9.54,distractor_price:2.15,choice:2.15,choiceRT:1468
+game_name:Shopping List,user_id:9999,session:102,time:2018/11/19 17:18:17,trial_num:5,phase:2,item:salad,target_price:3.75,distractor_price:6.49,choice:6.49,choiceRT:1546
+game_name:Shopping List,user_id:9999,session:102,time:2018/11/19 17:18:17,trial_num:6,phase:2,item:floss,target_price:6.94,distractor_price:9.34,choice:6.94,choiceRT:1609
+game_name:Shopping List,user_id:9999,session:102,time:2018/11/19 17:18:17,trial_num:7,phase:2,item:salsa,target_price:6.27,distractor_price:4.52,choice:4.52,choiceRT:4304
+game_name:Shopping List,user_id:9999,session:102,time:2018/11/19 17:18:17,trial_num:8,phase:2,item:almonds,target_price:3.94,distractor_price:1.58,choice:3.94,choiceRT:2882
+game_name:Shopping List,user_id:9999,session:102,time:2018/11/19 17:18:17,trial_num:9,phase:2,item:sandwich,target_price:2.81,distractor_price:4.57,choice:4.57,choiceRT:2427
+game_name:Shopping List,user_id:9999,session:102,time:2018/11/19 17:18:17,trial_num:10,phase:2,item:rolls,target_price:5.38,distractor_price:2.91,choice:5.38,choiceRT:1842

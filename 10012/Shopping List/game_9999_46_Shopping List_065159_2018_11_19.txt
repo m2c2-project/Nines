@@ -1,0 +1,20 @@
+game_name:Shopping List,user_id:9999,session:46,time:2018/11/19 06:51:03,trial_num:1,phase:1,item:rolls,target_price:9.35,choice:no,judgement_RT:1596
+game_name:Shopping List,user_id:9999,session:46,time:2018/11/19 06:51:03,trial_num:2,phase:1,item:lotion,target_price:2.87,choice:yes,judgement_RT:1680
+game_name:Shopping List,user_id:9999,session:46,time:2018/11/19 06:51:03,trial_num:3,phase:1,item:cereal,target_price:7.82,choice:no,judgement_RT:2877
+game_name:Shopping List,user_id:9999,session:46,time:2018/11/19 06:51:03,trial_num:4,phase:1,item:light bulbs,target_price:1.73,choice:yes,judgement_RT:2054
+game_name:Shopping List,user_id:9999,session:46,time:2018/11/19 06:51:03,trial_num:5,phase:1,item:zucchini,target_price:3.74,choice:yes,judgement_RT:2053
+game_name:Shopping List,user_id:9999,session:46,time:2018/11/19 06:51:03,trial_num:6,phase:1,item:toilet paper,target_price:8.96,choice:no,judgement_RT:2946
+game_name:Shopping List,user_id:9999,session:46,time:2018/11/19 06:51:03,trial_num:7,phase:1,item:celery,target_price:9.28,choice:no,judgement_RT:1697
+game_name:Shopping List,user_id:9999,session:46,time:2018/11/19 06:51:03,trial_num:8,phase:1,item:blueberries,target_price:1.35,choice:yes,judgement_RT:1770
+game_name:Shopping List,user_id:9999,session:46,time:2018/11/19 06:51:03,trial_num:9,phase:1,item:dish soap,target_price:9.47,choice:yes,judgement_RT:2546
+game_name:Shopping List,user_id:9999,session:46,time:2018/11/19 06:51:03,trial_num:10,phase:1,item:pineapple,target_price:2.49,choice:yes,judgement_RT:1592
+game_name:Shopping List,user_id:9999,session:46,time:2018/11/19 06:51:03,trial_num:1,phase:2,item:zucchini,target_price:3.74,distractor_price:1.46,choice:3.74,choiceRT:4461
+game_name:Shopping List,user_id:9999,session:46,time:2018/11/19 06:51:03,trial_num:2,phase:2,item:pineapple,target_price:2.49,distractor_price:4.79,choice:4.79,choiceRT:2972
+game_name:Shopping List,user_id:9999,session:46,time:2018/11/19 06:51:03,trial_num:3,phase:2,item:blueberries,target_price:1.35,distractor_price:3.58,choice:3.58,choiceRT:3209
+game_name:Shopping List,user_id:9999,session:46,time:2018/11/19 06:51:03,trial_num:4,phase:2,item:toilet paper,target_price:8.96,distractor_price:1.75,choice:8.96,choiceRT:2526
+game_name:Shopping List,user_id:9999,session:46,time:2018/11/19 06:51:03,trial_num:5,phase:2,item:cereal,target_price:7.82,distractor_price:3.62,choice:7.82,choiceRT:2556
+game_name:Shopping List,user_id:9999,session:46,time:2018/11/19 06:51:03,trial_num:6,phase:2,item:celery,target_price:9.28,distractor_price:3.61,choice:3.61,choiceRT:4430
+game_name:Shopping List,user_id:9999,session:46,time:2018/11/19 06:51:03,trial_num:7,phase:2,item:lotion,target_price:2.87,distractor_price:9.63,choice:9.63,choiceRT:2516
+game_name:Shopping List,user_id:9999,session:46,time:2018/11/19 06:51:03,trial_num:8,phase:2,item:rolls,target_price:9.35,distractor_price:1.49,choice:1.49,choiceRT:4165
+game_name:Shopping List,user_id:9999,session:46,time:2018/11/19 06:51:03,trial_num:9,phase:2,item:dish soap,target_price:9.47,distractor_price:7.48,choice:9.47,choiceRT:3123
+game_name:Shopping List,user_id:9999,session:46,time:2018/11/19 06:51:03,trial_num:10,phase:2,item:light bulbs,target_price:1.73,distractor_price:5.81,choice:1.73,choiceRT:5344

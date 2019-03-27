@@ -1,0 +1,4 @@
+game_name:Dot Memory,user_id:9999,session:142,time:2018/11/27 16:34:19,trial_num:1,dot_locations: 0_4 2_1 4_2,user_answers: 0_4 2_1 4_2,response_time:8684,ef_locations:0_2_2 0_2_5 0_2_6 0_3_6 0_2_7
+game_name:Dot Memory,user_id:9999,session:142,time:2018/11/27 16:34:45,trial_num:2,dot_locations: 1_3 2_4 4_0,user_answers: 1_3 3_0 4_1,response_time:12768,ef_locations:0_1_0 0_2_2 0_3_2 0_4_4 0_2_4 0_1_6
+game_name:Dot Memory,user_id:9999,session:142,time:2018/11/27 16:35:10,trial_num:3,dot_locations: 0_2 3_1 1_4,user_answers: 0_2 1_4 3_1,response_time:11302,ef_locations:0_0_1 0_3_0 0_3_2 0_0_5 0_0_7 0_3_6
+game_name:Dot Memory,user_id:9999,session:142,time:2018/11/27 16:35:26,trial_num:4,dot_locations: 2_4 3_1 4_0,user_answers: 2_4 3_1 4_0,response_time:2305,ef_locations:0_3_0 0_4_0 0_2_1 0_1_3 0_1_4 0_2_5

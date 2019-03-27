@@ -1,0 +1,42 @@
+ID:9999
+Session:65
+Pack:BedtimeSurveyPack
+Start Date:2018/11/25
+Start Time: 00:27:31
+End Date:2018/11/25
+End Time:00:31:17
+Exit Status:NORMAL
+Exit Screen:thank_you_screen
+Build Date:7/13/18 10:20 AM
+Application Version:1.1
+Android Version:8.1.0
+Device ID:3bc398e2af929ae6
+Device Manufacturer:Xiaomi
+Device Model:Mi A1
+Launch Type:NORMAL_LAUNCH
+Beep File:beep_9_10.xml
+Target Beep Time:NOT SET
+Actual Beep Time:NOT SET
+Screen Trail:bedtime_intro>foodrecord_preprompt>feelings_intro>worried_screen>happy_screen>fatigue_screen>stress_screen>sad_screen>cognition_intro>cog_slow_screen>cog_foggy_screen>cog_sharp_screen>cog_conc_screen>TimePress_intro>TimePress_busy_screen>TimePress_distract_screen>food_intro_screen>food_yn_screen>food_log_screen>pa_intro_screen>food_log_screen>pa_intro_screen>pa_yn_screen>pa_whynot_screen>BehavWrapUp_intro>pa_whynot_screen>BehavWrapUp_intro>pa_whynot_screen>BehavWrapUp_intro>BehavWrapUp_care_screen>BehavWrapUp_foodchoices_screen>BehavWrapUp_foodenjoy_screen>BehavWrapUp_colds_screen>BehavWrapUp_family_screen>BehavWrapUp_colds_screen>BehavWrapUp_family_screen>BehavWrapUp_PA_screen>BehavWrapUp_goals_screen>foodrecord_postprompt>thank_you_screen
+worried_now:54
+happy_now:87
+fatigue_now:100
+stress_now:66
+sad_now:4
+cog_slow:80
+cog_foggy:75
+cog_sharp:16
+cog_concentrate:18
+TimePress_busy:100
+TimePress_distract:92
+food_yn:yes
+food_log:pumpkin pie, ice cream, fish, salad
+pa_yn:no
+pa_whynot:resting+watching TV
+BehavWrapUp_care:12
+BehavWrapUp_foodchoices:76
+BehavWrapUp_foodenjoy:93
+BehavWrapUp_colds:54
+BehavWrapUp_family:65
+BehavWrapUp_PA:57
+BehavWrapUp_goals:50

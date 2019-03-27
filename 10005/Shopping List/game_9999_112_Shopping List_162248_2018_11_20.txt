@@ -1,0 +1,20 @@
+game_name:Shopping List,user_id:9999,session:112,time:2018/11/20 16:21:55,trial_num:1,phase:1,item:waffles,target_price:7.14,choice:yes,judgement_RT:1031
+game_name:Shopping List,user_id:9999,session:112,time:2018/11/20 16:21:55,trial_num:2,phase:1,item:plastic wrap,target_price:9.24,choice:yes,judgement_RT:1548
+game_name:Shopping List,user_id:9999,session:112,time:2018/11/20 16:21:55,trial_num:3,phase:1,item:aluminum foil,target_price:1.82,choice:yes,judgement_RT:1494
+game_name:Shopping List,user_id:9999,session:112,time:2018/11/20 16:21:55,trial_num:4,phase:1,item:cereal,target_price:8.72,choice:yes,judgement_RT:2176
+game_name:Shopping List,user_id:9999,session:112,time:2018/11/20 16:21:55,trial_num:5,phase:1,item:tortillas,target_price:9.16,choice:no,judgement_RT:1727
+game_name:Shopping List,user_id:9999,session:112,time:2018/11/20 16:21:55,trial_num:6,phase:1,item:salsa,target_price:4.75,choice:yes,judgement_RT:1009
+game_name:Shopping List,user_id:9999,session:112,time:2018/11/20 16:21:55,trial_num:7,phase:1,item:cucumber,target_price:2.13,choice:yes,judgement_RT:1347
+game_name:Shopping List,user_id:9999,session:112,time:2018/11/20 16:21:55,trial_num:8,phase:1,item:sponge,target_price:6.94,choice:yes,judgement_RT:1253
+game_name:Shopping List,user_id:9999,session:112,time:2018/11/20 16:21:55,trial_num:9,phase:1,item:vegetable oil,target_price:9.71,choice:yes,judgement_RT:1819
+game_name:Shopping List,user_id:9999,session:112,time:2018/11/20 16:21:55,trial_num:10,phase:1,item:zucchini,target_price:9.67,choice:yes,judgement_RT:1046
+game_name:Shopping List,user_id:9999,session:112,time:2018/11/20 16:21:55,trial_num:1,phase:2,item:cucumber,target_price:2.13,distractor_price:3.42,choice:2.13,choiceRT:1994
+game_name:Shopping List,user_id:9999,session:112,time:2018/11/20 16:21:55,trial_num:2,phase:2,item:waffles,target_price:7.14,distractor_price:3.72,choice:3.72,choiceRT:1938
+game_name:Shopping List,user_id:9999,session:112,time:2018/11/20 16:21:55,trial_num:3,phase:2,item:tortillas,target_price:9.16,distractor_price:4.57,choice:4.57,choiceRT:1710
+game_name:Shopping List,user_id:9999,session:112,time:2018/11/20 16:21:55,trial_num:4,phase:2,item:cereal,target_price:8.72,distractor_price:7.24,choice:7.24,choiceRT:2263
+game_name:Shopping List,user_id:9999,session:112,time:2018/11/20 16:21:55,trial_num:5,phase:2,item:salsa,target_price:4.75,distractor_price:9.82,choice:4.75,choiceRT:1816
+game_name:Shopping List,user_id:9999,session:112,time:2018/11/20 16:21:55,trial_num:6,phase:2,item:vegetable oil,target_price:9.71,distractor_price:6.48,choice:9.71,choiceRT:3283
+game_name:Shopping List,user_id:9999,session:112,time:2018/11/20 16:21:55,trial_num:7,phase:2,item:aluminum foil,target_price:1.82,distractor_price:4.58,choice:4.58,choiceRT:3616
+game_name:Shopping List,user_id:9999,session:112,time:2018/11/20 16:21:55,trial_num:8,phase:2,item:sponge,target_price:6.94,distractor_price:8.39,choice:6.94,choiceRT:2685
+game_name:Shopping List,user_id:9999,session:112,time:2018/11/20 16:21:55,trial_num:9,phase:2,item:zucchini,target_price:9.67,distractor_price:7.23,choice:7.23,choiceRT:1784
+game_name:Shopping List,user_id:9999,session:112,time:2018/11/20 16:21:55,trial_num:10,phase:2,item:plastic wrap,target_price:9.24,distractor_price:3.51,choice:3.51,choiceRT:2343

@@ -1,0 +1,20 @@
+game_name:Shopping List,user_id:9999,session:33,time:2018/11/16 20:02:40,trial_num:1,phase:1,item:waffles,target_price:6.94,choice:no,judgement_RT:2341
+game_name:Shopping List,user_id:9999,session:33,time:2018/11/16 20:02:40,trial_num:2,phase:1,item:toilet paper,target_price:2.15,choice:yes,judgement_RT:1808
+game_name:Shopping List,user_id:9999,session:33,time:2018/11/16 20:02:40,trial_num:3,phase:1,item:aluminum foil,target_price:9.84,choice:yes,judgement_RT:1654
+game_name:Shopping List,user_id:9999,session:33,time:2018/11/16 20:02:40,trial_num:4,phase:1,item:aspirin,target_price:1.82,choice:yes,judgement_RT:1649
+game_name:Shopping List,user_id:9999,session:33,time:2018/11/16 20:02:40,trial_num:5,phase:1,item:conditioner,target_price:3.72,choice:yes,judgement_RT:1546
+game_name:Shopping List,user_id:9999,session:33,time:2018/11/16 20:02:40,trial_num:6,phase:1,item:bleach,target_price:3.79,choice:no,judgement_RT:2295
+game_name:Shopping List,user_id:9999,session:33,time:2018/11/16 20:02:40,trial_num:7,phase:1,item:sandwich,target_price:3.87,choice:yes,judgement_RT:1381
+game_name:Shopping List,user_id:9999,session:33,time:2018/11/16 20:02:40,trial_num:8,phase:1,item:salsa,target_price:9.57,choice:no,judgement_RT:1814
+game_name:Shopping List,user_id:9999,session:33,time:2018/11/16 20:02:40,trial_num:9,phase:1,item:cucumber,target_price:7.36,choice:no,judgement_RT:1653
+game_name:Shopping List,user_id:9999,session:33,time:2018/11/16 20:02:40,trial_num:10,phase:1,item:cereal,target_price:7.98,choice:no,judgement_RT:1794
+game_name:Shopping List,user_id:9999,session:33,time:2018/11/16 20:02:40,trial_num:1,phase:2,item:cucumber,target_price:7.36,distractor_price:5.64,choice:7.36,choiceRT:5083
+game_name:Shopping List,user_id:9999,session:33,time:2018/11/16 20:02:40,trial_num:2,phase:2,item:bleach,target_price:3.79,distractor_price:2.35,choice:3.79,choiceRT:2470
+game_name:Shopping List,user_id:9999,session:33,time:2018/11/16 20:02:40,trial_num:3,phase:2,item:cereal,target_price:7.98,distractor_price:1.46,choice:7.98,choiceRT:4336
+game_name:Shopping List,user_id:9999,session:33,time:2018/11/16 20:02:40,trial_num:4,phase:2,item:sandwich,target_price:3.87,distractor_price:1.98,choice:3.87,choiceRT:2668
+game_name:Shopping List,user_id:9999,session:33,time:2018/11/16 20:02:40,trial_num:5,phase:2,item:waffles,target_price:6.94,distractor_price:3.47,choice:3.47,choiceRT:2597
+game_name:Shopping List,user_id:9999,session:33,time:2018/11/16 20:02:40,trial_num:6,phase:2,item:toilet paper,target_price:2.15,distractor_price:4.59,choice:2.15,choiceRT:2721
+game_name:Shopping List,user_id:9999,session:33,time:2018/11/16 20:02:40,trial_num:7,phase:2,item:aluminum foil,target_price:9.84,distractor_price:5.27,choice:9.84,choiceRT:2062
+game_name:Shopping List,user_id:9999,session:33,time:2018/11/16 20:02:40,trial_num:8,phase:2,item:salsa,target_price:9.57,distractor_price:5.61,choice:9.57,choiceRT:2298
+game_name:Shopping List,user_id:9999,session:33,time:2018/11/16 20:02:40,trial_num:9,phase:2,item:aspirin,target_price:1.82,distractor_price:8.41,choice:1.82,choiceRT:3208
+game_name:Shopping List,user_id:9999,session:33,time:2018/11/16 20:02:40,trial_num:10,phase:2,item:conditioner,target_price:3.72,distractor_price:5.13,choice:3.72,choiceRT:3377

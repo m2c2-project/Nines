@@ -1,0 +1,21 @@
+ID:9999
+Session:52
+Pack:BeepedSurveyPack
+Start Date:2018/11/19
+Start Time: 20:04:06
+End Date:2018/11/19
+End Time:20:04:39
+Exit Status:MINIMIZE/FORCE_CLOSE
+Exit Screen:beeped_intro
+Build Date:7/13/18 10:20 AM
+Application Version:1.1
+Android Version:8.1.0
+Device ID:8a29ae8276427772
+Device Manufacturer:Xiaomi
+Device Model:Mi A1
+Launch Type:NORMAL_LAUNCH
+Beep File:beep_6_7.xml
+Target Beep Time:NOT SET
+Actual Beep Time:NOT SET
+Screen Trail:beeped_intro>feelings_intro>worried_screen>feelings_intro>beeped_intro
+worried_now:NO_VALUE

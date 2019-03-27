@@ -1,0 +1,36 @@
+ID:9999
+Session:80
+Pack:BeepedSurveyPack
+Start Date:2018/11/23
+Start Time: 09:00:05
+End Date:2018/11/23
+End Time:09:05:53
+Exit Status:NORMAL
+Exit Screen:thank_you_screen
+Build Date:7/13/18 10:20 AM
+Application Version:1.1
+Android Version:8.1.0
+Device ID:8a29ae8276427772
+Device Manufacturer:Xiaomi
+Device Model:Mi A1
+Launch Type:BEEPED_LAUNCH
+Beep File:beep_6_7.xml
+Target Beep Time:Fri Nov 23 09:00:00 EST 2018
+Actual Beep Time:Fri Nov 23 09:00:01 EST 2018
+Screen Trail:beeped_intro>feelings_intro>worried_screen>happy_screen>fatigue_screen>stress_screen>sad_screen>cognition_intro>cog_slow_screen>cog_foggy_screen>cog_sharp_screen>cog_conc_screen>TimePress_intro>TimePress_busy_screen>TimePress_distract_screen>food_intro_screen>food_yn_screen>food_whynot_screen>pa_intro_screen>pa_yn_screen>pa_intensity_screen>games_intro_screen>game_Symbol>game_Symbol___game>game_DotMemory>game_DotMemory___game>game_MemBinding>game_MemBinding___game>game_ShoppingList>game_ShoppingList___game>game_RSpan>game_RSpan___game>thank_you_screen
+worried_now:31
+happy_now:61
+fatigue_now:43
+stress_now:41
+sad_now:37
+cog_slow:41
+cog_foggy:42
+cog_sharp:56
+cog_concentrate:54
+TimePress_busy:45
+TimePress_distract:48
+food_yn:no
+food_whynot:not hungry
+pa_yn:yes
+pa_intensity:light
+pa_duration:20

@@ -1,0 +1,43 @@
+ID:9999
+Session:61
+Pack:BedtimeSurveyPack
+Start Date:2018/11/20
+Start Time: 22:16:34
+End Date:2018/11/20
+End Time:22:20:46
+Exit Status:NORMAL
+Exit Screen:thank_you_screen
+Build Date:7/13/18 10:20 AM
+Application Version:1.1
+Android Version:8.1.0
+Device ID:8a29ae8276427772
+Device Manufacturer:Xiaomi
+Device Model:Mi A1
+Launch Type:NORMAL_LAUNCH
+Beep File:beep_6_7.xml
+Target Beep Time:NOT SET
+Actual Beep Time:NOT SET
+Screen Trail:bedtime_intro>foodrecord_preprompt>feelings_intro>worried_screen>happy_screen>fatigue_screen>stress_screen>sad_screen>cognition_intro>cog_slow_screen>cog_foggy_screen>cog_sharp_screen>cog_conc_screen>TimePress_intro>TimePress_busy_screen>TimePress_distract_screen>food_intro_screen>food_yn_screen>food_log_screen>pa_intro_screen>pa_yn_screen>pa_intensity_screen>BehavWrapUp_intro>BehavWrapUp_care_screen>BehavWrapUp_foodchoices_screen>BehavWrapUp_foodenjoy_screen>BehavWrapUp_colds_screen>BehavWrapUp_family_screen>BehavWrapUp_PA_screen>BehavWrapUp_goals_screen>foodrecord_postprompt>thank_you_screen
+worried_now:26
+happy_now:65
+fatigue_now:66
+stress_now:38
+sad_now:28
+cog_slow:32
+cog_foggy:29
+cog_sharp:59
+cog_concentrate:57
+TimePress_busy:61
+TimePress_distract:62
+food_yn:yes
+food_log:pizza+corn chips+wine cooler+salad
+pa_yn:yes
+pa_intensity:moderate
+pa_duration:45
+BehavWrapUp_care:29
+BehavWrapUp_foodchoices:44
+BehavWrapUp_foodenjoy:61
+BehavWrapUp_colds:59
+BehavWrapUp_family:59
+BehavWrapUp_PA:43
+BehavWrapUp_goals:41

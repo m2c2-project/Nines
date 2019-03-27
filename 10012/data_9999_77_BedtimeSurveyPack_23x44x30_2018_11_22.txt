@@ -1,0 +1,43 @@
+ID:9999
+Session:77
+Pack:BedtimeSurveyPack
+Start Date:2018/11/22
+Start Time: 23:41:34
+End Date:2018/11/22
+End Time:23:44:30
+Exit Status:NORMAL
+Exit Screen:thank_you_screen
+Build Date:7/13/18 10:20 AM
+Application Version:1.1
+Android Version:8.1.0
+Device ID:8a29ae8276427772
+Device Manufacturer:Xiaomi
+Device Model:Mi A1
+Launch Type:NORMAL_LAUNCH
+Beep File:beep_6_7.xml
+Target Beep Time:NOT SET
+Actual Beep Time:NOT SET
+Screen Trail:bedtime_intro>foodrecord_preprompt>feelings_intro>worried_screen>happy_screen>fatigue_screen>stress_screen>sad_screen>cognition_intro>cog_slow_screen>cog_foggy_screen>cog_sharp_screen>cog_conc_screen>TimePress_intro>TimePress_busy_screen>TimePress_distract_screen>food_intro_screen>food_yn_screen>food_log_screen>pa_intro_screen>pa_yn_screen>pa_intensity_screen>BehavWrapUp_intro>BehavWrapUp_care_screen>BehavWrapUp_foodchoices_screen>BehavWrapUp_foodenjoy_screen>BehavWrapUp_colds_screen>BehavWrapUp_family_screen>BehavWrapUp_PA_screen>BehavWrapUp_goals_screen>foodrecord_postprompt>thank_you_screen
+worried_now:18
+happy_now:67
+fatigue_now:76
+stress_now:30
+sad_now:22
+cog_slow:42
+cog_foggy:31
+cog_sharp:57
+cog_concentrate:60
+TimePress_busy:65
+TimePress_distract:60
+food_yn:yes
+food_log:cookies+wine+chips
+pa_yn:yes
+pa_intensity:light
+pa_duration:60
+BehavWrapUp_care:62
+BehavWrapUp_foodchoices:59
+BehavWrapUp_foodenjoy:62
+BehavWrapUp_colds:62
+BehavWrapUp_family:61
+BehavWrapUp_PA:62
+BehavWrapUp_goals:41

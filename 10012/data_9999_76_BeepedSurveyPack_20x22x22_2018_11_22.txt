@@ -1,0 +1,36 @@
+ID:9999
+Session:76
+Pack:BeepedSurveyPack
+Start Date:2018/11/22
+Start Time: 20:13:14
+End Date:2018/11/22
+End Time:20:22:22
+Exit Status:NORMAL
+Exit Screen:thank_you_screen
+Build Date:7/13/18 10:20 AM
+Application Version:1.1
+Android Version:8.1.0
+Device ID:8a29ae8276427772
+Device Manufacturer:Xiaomi
+Device Model:Mi A1
+Launch Type:BEEPED_LAUNCH
+Beep File:beep_6_7.xml
+Target Beep Time:Thu Nov 22 20:05:00 EST 2018
+Actual Beep Time:Thu Nov 22 20:05:01 EST 2018
+Screen Trail:beeped_intro>feelings_intro>worried_screen>happy_screen>fatigue_screen>stress_screen>sad_screen>cognition_intro>cog_slow_screen>cog_foggy_screen>cog_sharp_screen>cog_conc_screen>TimePress_intro>TimePress_busy_screen>TimePress_distract_screen>food_intro_screen>food_yn_screen>food_log_screen>pa_intro_screen>pa_yn_screen>pa_intensity_screen>games_intro_screen>game_Symbol>game_Symbol___game>game_DotMemory>game_DotMemory___game>game_MemBinding>game_MemBinding___game>game_ShoppingList>game_ShoppingList___game>game_RSpan>game_RSpan___game>thank_you_screen
+worried_now:26
+happy_now:63
+fatigue_now:68
+stress_now:30
+sad_now:31
+cog_slow:36
+cog_foggy:32
+cog_sharp:71
+cog_concentrate:68
+TimePress_busy:66
+TimePress_distract:67
+food_yn:yes
+food_log:turkey+stuffing+collard greens+ham+yams
+pa_yn:yes
+pa_intensity:moderate
+pa_duration:60

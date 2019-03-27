@@ -1,0 +1,36 @@
+ID:9999
+Session:64
+Pack:BeepedSurveyPack
+Start Date:2018/11/14
+Start Time: 13:10:20
+End Date:2018/11/14
+End Time:13:21:53
+Exit Status:NORMAL
+Exit Screen:thank_you_screen
+Build Date:7/13/18 10:20 AM
+Application Version:1.1
+Android Version:8.1.0
+Device ID:f21b7e66553459ba
+Device Manufacturer:Xiaomi
+Device Model:Mi A1
+Launch Type:BEEPED_LAUNCH
+Beep File:beep_7_8.xml
+Target Beep Time:Wed Nov 14 13:10:00 EST 2018
+Actual Beep Time:Wed Nov 14 13:10:02 EST 2018
+Screen Trail:beeped_intro>feelings_intro>worried_screen>happy_screen>worried_screen>happy_screen>fatigue_screen>stress_screen>sad_screen>cognition_intro>cog_slow_screen>cog_foggy_screen>cog_sharp_screen>cog_conc_screen>TimePress_intro>TimePress_busy_screen>TimePress_distract_screen>food_intro_screen>food_yn_screen>food_log_screen>pa_intro_screen>pa_yn_screen>pa_intensity_screen>games_intro_screen>game_Symbol>game_Symbol___game>game_DotMemory>game_DotMemory___game>game_MemBinding>game_MemBinding___game>game_ShoppingList>game_ShoppingList___game>game_RSpan>game_RSpan___game>thank_you_screen
+worried_now:68
+happy_now:39
+fatigue_now:37
+stress_now:72
+sad_now:64
+cog_slow:64
+cog_foggy:68
+cog_sharp:34
+cog_concentrate:32
+TimePress_busy:73
+TimePress_distract:74
+food_yn:yes
+food_log:Boost Sugar Control 
+pa_yn:yes
+pa_intensity:light
+pa_duration:30

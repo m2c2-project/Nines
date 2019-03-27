@@ -1,0 +1,37 @@
+ID:9999
+Session:55
+Pack:WakeupSurveyPack
+Start Date:2018/11/20
+Start Time: 06:36:40
+End Date:2018/11/20
+End Time:06:43:21
+Exit Status:NORMAL
+Exit Screen:thank_you_screen
+Build Date:7/13/18 10:20 AM
+Application Version:1.1
+Android Version:8.1.0
+Device ID:8a29ae8276427772
+Device Manufacturer:Xiaomi
+Device Model:Mi A1
+Launch Type:NORMAL_LAUNCH
+Beep File:beep_6_7.xml
+Target Beep Time:NOT SET
+Actual Beep Time:NOT SET
+Screen Trail:wakeup_intro>sleep_intro>sleep_qual_screen>sleep_dist_screen>sleep_diff_screen>sleep_dur_screen>forecasting_intro>forecast_str_screen>forecast_bus_screen>forecast_dis_screen>forecast_hap_screen>forecast_eff_screen>cognition_intro>cog_slow_screen>cog_foggy_screen>cog_sharp_screen>cog_conc_screen>food_intro_screen>food_yn_screen>food_log_screen>pa_intro_screen>pa_yn_screen>pa_whynot_screen>games_intro_screen>game_Symbol>game_Symbol___game>game_DotMemory>game_DotMemory___game>game_MemBinding>game_MemBinding___game>game_ShoppingList>game_ShoppingList___game>game_RSpan>game_RSpan___game>thank_you_screen
+sleep_quality:40
+sleep_disturbances:36
+sleep_difficulty:29
+sleep_duration:7
+forecast_stress:41
+forecast_busy:60
+forecast_distraction:59
+forecast_happy:62
+forecast_efficacy:40
+cog_slow:38
+cog_foggy:39
+cog_sharp:63
+cog_concentrate:64
+food_yn:yes
+food_log:water
+pa_yn:no
+pa_whynot:just woke up

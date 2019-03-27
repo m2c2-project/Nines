@@ -1,0 +1,36 @@
+ID:9999
+Session:68
+Pack:BeepedSurveyPack
+Start Date:2018/11/21
+Start Time: 19:35:10
+End Date:2018/11/21
+End Time:19:43:37
+Exit Status:NORMAL
+Exit Screen:thank_you_screen
+Build Date:7/13/18 10:20 AM
+Application Version:1.1
+Android Version:8.1.0
+Device ID:8a29ae8276427772
+Device Manufacturer:Xiaomi
+Device Model:Mi A1
+Launch Type:BEEPED_LAUNCH
+Beep File:beep_6_7.xml
+Target Beep Time:Wed Nov 21 19:35:00 EST 2018
+Actual Beep Time:Wed Nov 21 19:35:02 EST 2018
+Screen Trail:beeped_intro>feelings_intro>worried_screen>happy_screen>fatigue_screen>stress_screen>sad_screen>cognition_intro>cog_slow_screen>cog_foggy_screen>cog_sharp_screen>cog_conc_screen>TimePress_intro>TimePress_busy_screen>TimePress_distract_screen>food_intro_screen>food_yn_screen>food_log_screen>pa_intro_screen>pa_yn_screen>pa_intensity_screen>games_intro_screen>game_Symbol>game_Symbol___game>game_DotMemory>game_DotMemory___game>game_MemBinding>game_MemBinding___game>game_ShoppingList>game_ShoppingList___game>game_RSpan>game_RSpan___game>thank_you_screen
+worried_now:38
+happy_now:59
+fatigue_now:60
+stress_now:58
+sad_now:31
+cog_slow:35
+cog_foggy:24
+cog_sharp:57
+cog_concentrate:60
+TimePress_busy:61
+TimePress_distract:64
+food_yn:yes
+food_log:wonton soup+noodles+water
+pa_yn:yes
+pa_intensity:moderate
+pa_duration:40
