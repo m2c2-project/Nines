@@ -10,8 +10,10 @@ ROOT_DIRECTORY = os.getcwd()
 TEXTEXT = '.txt'
 
 # Global Variables
-match = ""
-replace = ""
+match = ''
+replace = ''
+read = 'r'
+wc = 'x'
 
 
 def main():
@@ -33,8 +35,7 @@ def main():
 
     return 0
 
-
-
+# Creates a dictonary from the match and replace terms passed in as args and parses it with the Dolphin substrings
 def makeReplaceTerms():
     # Replacement dictionary {value to find: value to replace} -> Dict
     replaceTerms = {
@@ -54,18 +55,20 @@ def iterateFilesInDir(directory):
         if fileName.endswith(TEXTEXT) and 'beep_log' not in fileName:
             # Create URL of file and open in memory
             fileUrl = os.path.join(directory, fileName)
-            data = openFile(fileUrl)
+            data = readFile(fileUrl)
             # Multireplace all instances of the substrings in data
             scrubbedData = multireplace(data)
             # Replace match term in file name
-            newFileName = cleanSimpleString(fileName)
-            print(newFileName)
+            newFileName = simpleMatchReplace(fileName)
+            newFileUrl = os.path.join(getCwd(), newFileName)
+            writeFile(newFileUrl, scrubbedData)
 
 
-
-def cleanSimpleString(string):
+# Simple .replace on a string passed in using the match and replace arguments
+def simpleMatchReplace(string):
     newFileName = string.replace(match, replace)
     return newFileName
+
         
 # Replace various substrings from a string in one pass
 def multireplace(string):
@@ -82,12 +85,16 @@ def multireplace(string):
     return regexp.sub(lambda match: replaceDict[match.group(0)], string)
 
 
-
 # Opens file and reads data, closes file -> data
-def openFile(filePath):
+def readFile(filePath):
     with open(filePath, 'r') as file:
         data = file.read()
     return data
+
+# Creates and writes to file, closes file
+def writeFile(filePath, data):
+    with open(filePath, 'x') as file:
+        file.write(data)
     
 
 # Checks if match folder exists -> directory path
