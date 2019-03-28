@@ -3,8 +3,7 @@ usage: nines.py [-h] folder match replace
 
 Finds and replaces all instances of a user Id in a Dolphin user data folder,
 file names, as well as .txts, recursively. Will only work with Alphanumeric
-Characters. New folder will be named replace-new. ThisThere are three
-positional arguments, and this script should be run from the directory which
+Characters. New folder will be named replace-new. /nThis script should be run from the directory which
 contains the user folder
 
 positional arguments:
