@@ -8,12 +8,12 @@ import argparse
 # Global Static Variables:
 ROOT_DIRECTORY = os.getcwd()
 TEXTEXT = '.txt'
+READ = 'r'
+MAKE = 'x'
 
 # Global Variables
 match = ''
 replace = ''
-read = 'r'
-wc = 'x'
 
 
 def main():
@@ -30,10 +30,18 @@ def main():
     # Switch to replace folder Dir
     os.chdir(replaceFolder)
 
-    # iterate over all files in current dir
+    # MARK: Data replacement begins
+
+    # Iterate over all files in current dir
     iterateFilesInDir(matchFolder)
 
+    # Subfolder Collection and Handlings
+
+
+
+
     return 0
+
 
 # Creates a dictonary from the match and replace terms passed in as args and parses it with the Dolphin substrings
 def makeReplaceTerms():
@@ -60,7 +68,9 @@ def iterateFilesInDir(directory):
             scrubbedData = multireplace(data)
             # Replace match term in file name
             newFileName = simpleMatchReplace(fileName)
+            # Create new File URL
             newFileUrl = os.path.join(getCwd(), newFileName)
+            # Write to file
             writeFile(newFileUrl, scrubbedData)
 
 
@@ -87,13 +97,14 @@ def multireplace(string):
 
 # Opens file and reads data, closes file -> data
 def readFile(filePath):
-    with open(filePath, 'r') as file:
+    with open(filePath, READ) as file:
         data = file.read()
     return data
 
-# Creates and writes to file, closes file
+
+# Makes file, closes file
 def writeFile(filePath, data):
-    with open(filePath, 'x') as file:
+    with open(filePath, MAKE) as file:
         file.write(data)
     
 
