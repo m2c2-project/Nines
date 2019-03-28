@@ -52,13 +52,22 @@ def iterateFilesInDir(directory):
         fileName = os.fsdecode(file)
         # if a text file and not a beep_log
         if fileName.endswith(TEXTEXT) and 'beep_log' not in fileName:
+            # Create URL of file and open in memory
             fileUrl = os.path.join(directory, fileName)
             data = openFile(fileUrl)
+            # Multireplace all instances of the substrings in data
             scrubbedData = multireplace(data)
-            print(scrubbedData)
+            # Replace match term in file name
+            newFileName = cleanSimpleString(fileName)
+            print(newFileName)
 
+
+
+def cleanSimpleString(string):
+    newFileName = string.replace(match, replace)
+    return newFileName
         
-
+# Replace various substrings from a string in one pass
 def multireplace(string):
     # Grab replacement dict
     replaceDict = makeReplaceTerms()
@@ -97,8 +106,9 @@ def matchFolderExists(folderName):
 def makeFolder(folderName):
     # Create path for folder in correct formatting for OS
     dirPath = os.path.join(getCwd(), folderName)
+
     # If folder doesn't exist, make it and report
-    if not os.path.isdir(dirPath):
+    if not folderExists(dirPath):
         try:
             os.mkdir(dirPath)
         except OSError:
@@ -111,6 +121,14 @@ def makeFolder(folderName):
         sys.exit()
     # Return folder path otherwise
     return dirPath
+
+
+# Take a Directory URL and check to see if it exists -> Bool
+def folderExists(folderURL):
+    if not os.path.isdir(folderURL):
+        return False
+    else:
+        return True
 
 
 # Gets current workding dir  -> cwd
