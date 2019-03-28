@@ -8,9 +8,10 @@ positional arguments, and this script should be run from the directory which
 contains the user folder
 
 positional arguments:
-  folder      Required Argument: Folder Name
-  match       Required Argument: UserId to match and replace
-  replace     Required Argument: Replacement string for match values
+
+- folder      Required Argument: Folder Name
+- match       Required Argument: UserId to match and replace
+- replace     Required Argument: Replacement string for match values
 
 optional arguments:
   -h, --help  show this help message and exit
