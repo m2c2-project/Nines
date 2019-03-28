@@ -24,7 +24,7 @@ def main():
     replace = args.replace
 
     # Check to see if a match folder currently exists
-    matchFolder = matchFolderExists(args.match)
+    matchFolderExists(args.match)
     # Create replace folder
     replaceFolder = makeFolder(args.replace)
     # Switch to replace folder Dir
@@ -32,11 +32,21 @@ def main():
 
     # MARK: Data replacement begins
     seekAndDestroy()
-
-
-
-
+    print("Success! Results have been updated")
     return 0
+
+# Creates a dictonary from the match and replace terms passed in as args and parses it with the Dolphin substrings
+def makeReplaceTerms():
+    # Replacement dictionary {value to find: value to replace} -> Dict
+    replaceTerms = {
+        "ID:"+match: "ID:"+replace,
+        "user_id:"+match: "user_id:"+replace,
+        "user_ID"+match: "ID:"+replace,
+        #food_log pattern uses 2 of year to avoid issues with count column
+        match+"|2" : replace+"|2"             
+    }
+
+    return replaceTerms
 
 
 def seekAndDestroy():
@@ -49,8 +59,11 @@ def seekAndDestroy():
         for f in files:
             # Ignores beep_log files ONLY!!!!!!!!
             if 'beep_log' not in f:
+                # Change to correct new directory for saving purposes
                 os.chdir(root.replace(match, replace))
+                # URL of the old file to be scrubbed
                 fileURL = os.path.join(root, f)
+                # Scrub file
                 scrubFile(fileURL, f)
         for d in dirs:
             # Create Subfolder
@@ -69,20 +82,6 @@ def scrubFile(fileURL, fileName):
     newFileUrl = os.path.join(getCwd(), newFileName)
     # Write to file
     writeFile(newFileUrl, scrubbedData)
-
-
-# Creates a dictonary from the match and replace terms passed in as args and parses it with the Dolphin substrings
-def makeReplaceTerms():
-    # Replacement dictionary {value to find: value to replace} -> Dict
-    replaceTerms = {
-        "ID:"+match: "ID:"+replace,
-        "user_id:"+match: "user_id:"+replace,
-        "user_ID"+match: "ID:"+replace,
-        #food_log pattern uses 2 of year to avoid issues with count column
-        match+"|2" : replace+"|2"             
-    }
-
-    return replaceTerms
 
 
 # Simple .replace on a string passed in using the match and replace arguments
@@ -141,8 +140,6 @@ def makeFolder(folderName):
         except OSError:
             print('Creation of the replacement directory failed')
             sys.exit()
-        else:
-            print('Successfully created %s' % dirPath)
     else:
         print('Cannot create replacement directory, folder already exists')
         sys.exit()
@@ -170,12 +167,13 @@ def argParser():
     parser = argparse.ArgumentParser(description='Finds and replaces all instances of a User Id passed as an positional argument in Dolphin data folders, '
     'file names, as well as .txts recursively. Will only work with Alphanumeric Characters')
     # Parser match and replace arguments, required fields
-    parser.add_argument('match', help='UserId to match and replace (Required)')
-    parser.add_argument('replace', help='Replacement string for match values')
+    parser.add_argument('match', help='Required Argument: UserId to match and replace')
+    parser.add_argument('replace', help='Required Argument: Replacement string for match values')
     args = parser.parse_args()
 
     # Check validity of arguments before returning
     for key, value in vars(args).items():
+        # Allow only Alphanumeric characters in arguments
         if not value.isalnum():
             print(value + ' is an invalid %s argument.' % key)
             sys.exit()

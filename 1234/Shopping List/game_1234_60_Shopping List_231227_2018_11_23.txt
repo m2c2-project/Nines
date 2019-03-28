@@ -1,0 +1,20 @@
+game_name:Shopping List,user_id:1234,session:60,time:2018/11/23 23:11:49,trial_num:1,phase:1,item:applesauce,target_price:9.42,choice:no,judgement_RT:2374
+game_name:Shopping List,user_id:1234,session:60,time:2018/11/23 23:11:49,trial_num:2,phase:1,item:cucumber,target_price:5.16,choice:no,judgement_RT:2084
+game_name:Shopping List,user_id:1234,session:60,time:2018/11/23 23:11:49,trial_num:3,phase:1,item:lotion,target_price:9.38,choice:no,judgement_RT:2047
+game_name:Shopping List,user_id:1234,session:60,time:2018/11/23 23:11:49,trial_num:4,phase:1,item:conditioner,target_price:2.86,choice:yes,judgement_RT:1400
+game_name:Shopping List,user_id:1234,session:60,time:2018/11/23 23:11:49,trial_num:5,phase:1,item:almonds,target_price:3.79,choice:yes,judgement_RT:1163
+game_name:Shopping List,user_id:1234,session:60,time:2018/11/23 23:11:49,trial_num:6,phase:1,item:ramen,target_price:7.24,choice:no,judgement_RT:1687
+game_name:Shopping List,user_id:1234,session:60,time:2018/11/23 23:11:49,trial_num:7,phase:1,item:spinach,target_price:5.42,choice:no,judgement_RT:2647
+game_name:Shopping List,user_id:1234,session:60,time:2018/11/23 23:11:49,trial_num:8,phase:1,item:celery,target_price:6.39,choice:no,judgement_RT:1511
+game_name:Shopping List,user_id:1234,session:60,time:2018/11/23 23:11:49,trial_num:9,phase:1,item:waffles,target_price:4.95,choice:yes,judgement_RT:2695
+game_name:Shopping List,user_id:1234,session:60,time:2018/11/23 23:11:49,trial_num:10,phase:1,item:vegetable oil,target_price:3.98,choice:yes,judgement_RT:1185
+game_name:Shopping List,user_id:1234,session:60,time:2018/11/23 23:11:49,trial_num:1,phase:2,item:cucumber,target_price:5.16,distractor_price:3.17,choice:3.17,choiceRT:4610
+game_name:Shopping List,user_id:1234,session:60,time:2018/11/23 23:11:49,trial_num:2,phase:2,item:celery,target_price:6.39,distractor_price:2.58,choice:2.58,choiceRT:1950
+game_name:Shopping List,user_id:1234,session:60,time:2018/11/23 23:11:49,trial_num:3,phase:2,item:ramen,target_price:7.24,distractor_price:9.14,choice:7.24,choiceRT:2468
+game_name:Shopping List,user_id:1234,session:60,time:2018/11/23 23:11:49,trial_num:4,phase:2,item:lotion,target_price:9.38,distractor_price:5.26,choice:5.26,choiceRT:2696
+game_name:Shopping List,user_id:1234,session:60,time:2018/11/23 23:11:49,trial_num:5,phase:2,item:vegetable oil,target_price:3.98,distractor_price:5.28,choice:3.98,choiceRT:1869
+game_name:Shopping List,user_id:1234,session:60,time:2018/11/23 23:11:49,trial_num:6,phase:2,item:applesauce,target_price:9.42,distractor_price:8.25,choice:8.25,choiceRT:2333
+game_name:Shopping List,user_id:1234,session:60,time:2018/11/23 23:11:49,trial_num:7,phase:2,item:conditioner,target_price:2.86,distractor_price:1.49,choice:2.86,choiceRT:2405
+game_name:Shopping List,user_id:1234,session:60,time:2018/11/23 23:11:49,trial_num:8,phase:2,item:almonds,target_price:3.79,distractor_price:5.34,choice:3.79,choiceRT:1701
+game_name:Shopping List,user_id:1234,session:60,time:2018/11/23 23:11:49,trial_num:9,phase:2,item:spinach,target_price:5.42,distractor_price:3.54,choice:5.42,choiceRT:2953
+game_name:Shopping List,user_id:1234,session:60,time:2018/11/23 23:11:49,trial_num:10,phase:2,item:waffles,target_price:4.95,distractor_price:2.49,choice:4.95,choiceRT:2468

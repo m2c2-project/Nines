@@ -1,0 +1,20 @@
+ID:1234
+Session:57
+Pack:BeepedSurveyPack
+Start Date:2018/11/23
+Start Time: 12:15:14
+End Date:2018/11/23
+End Time:12:45:31
+Exit Status:TIMED_OUT
+Exit Screen:beeped_intro
+Build Date:7/13/18 10:20 AM
+Application Version:1.1
+Android Version:8.1.0
+Device ID:3bc398e2af929ae6
+Device Manufacturer:Xiaomi
+Device Model:Mi A1
+Launch Type:BEEPED_LAUNCH
+Beep File:beep_9_10.xml
+Target Beep Time:Fri Nov 23 12:00:00 EST 2018
+Actual Beep Time:Fri Nov 23 12:00:01 EST 2018
+Screen Trail:beeped_intro
