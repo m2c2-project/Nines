@@ -2,6 +2,7 @@
 
 import sys
 import os
+import re
 import argparse
 
 # Global Static Variables:
@@ -15,22 +16,37 @@ replace = ""
 
 def main():
     global match, replace
-    # Collect args from input
+    # Collect args from input and create needed data structures
     args = argParser()
     match = args.match
     replace = args.replace
+
     # Check to see if a match folder currently exists
-    oldFolder = matchFolderExists(args.match)
+    matchFolder = matchFolderExists(args.match)
     # Create replace folder
-    newFolder = makeFolder(args.replace)
+    replaceFolder = makeFolder(args.replace)
     # Switch to replace folder Dir
-    os.chdir(newFolder)
+    os.chdir(replaceFolder)
+
     # iterate over all files in current dir
-    iterateFilesInDir(oldFolder)
+    iterateFilesInDir(matchFolder)
 
     return 0
 
 
+
+def makeReplaceTerms():
+    # Replacement dictionary {value to find: value to replace} -> Dict
+    replaceTerms = {
+        "ID:"+match: "ID:"+replace,
+        "user_id:"+match: "user_id"+replace,
+        "user_ID"+match: "ID:"+replace               
+    }
+
+    return replaceTerms
+
+
+# Iterate over files in a directory
 def iterateFilesInDir(directory):
     for file in os.listdir(directory):
         fileName = os.fsdecode(file)
@@ -38,23 +54,24 @@ def iterateFilesInDir(directory):
         if fileName.endswith(TEXTEXT) and 'beep_log' not in fileName:
             fileUrl = os.path.join(directory, fileName)
             data = openFile(fileUrl)
-            scrubbedData = replaceMatchStrings(data)
+            scrubbedData = multireplace(data)
             print(scrubbedData)
 
-            
-# Replaces instances of replace strings in a data file -> Scrubbed data
-def replaceMatchStrings(data):
-    idMatch = 'ID:' + match
-    idReplace = 'ID:' + replace
-    userIdMatch = 'user_id:' + match
-    userIdReplace = 'user_id:' + replace
-    userIDMatch = 'user_ID:' + match
-    userIDReplace = 'user_ID:' + replace
-    
-    for r in ((idMatch, idReplace), (userIdMatch, userIdReplace), (userIDMatch, userIDReplace)):
-        cleaned = data.replace(*r)
-        # cleaned = data.replace(idMatch, idReplace)
-    return cleaned
+        
+
+def multireplace(string):
+    replaceDict = makeReplaceTerms()
+    # Place longer ones first to keep shorter substrings from matching where the longer ones should take place
+    # For instance given the replacements {'ab': 'AB', 'abc': 'ABC'} against the string 'hey abc', it should produce
+    # 'hey ABC' and not 'hey ABc'
+    substrs = sorted(replaceDict, key=len, reverse=True)
+
+    # Create a regex that matches any of the substrings to replace
+    regexp = re.compile('|'.join(map(re.escape, substrs)))
+
+    # For each match, look up the new string in the replacements
+    return regexp.sub(lambda match: replaceDict[match.group(0)], string)
+
 
 
 # Opens file and reads data, closes file -> data
