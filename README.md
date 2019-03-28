@@ -17,7 +17,7 @@ optional arguments:
   -h, --help  show this help message and exit
 
 # Replacement Terms
-Currently uses a regex map for search and replace terms hard coded into the script.
+Currently uses a regex map for search and replace terms hard coded into the script so as to allow for fast parsing one time through each file.
 
 cases follow
 
