@@ -37,6 +37,7 @@ def main():
     # MARK: Data replacement begins
     seekAndDestroy()
     print("Success! Results have been updated")
+
     return 0
 
 
@@ -48,7 +49,7 @@ def makeReplaceTerms():
         "user_id:"+match: "user_id:"+replace,
         "user_ID"+match: "user_ID:"+replace,
         #food_log pattern uses 2 of year to avoid issues with count column
-        match+"|20" : replace+"|20"             
+        match+"|201" : replace+"|201"             
     }
 
     return replaceTerms
