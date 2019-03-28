@@ -62,8 +62,7 @@ def iterateFilesInDir(directory):
 def multireplace(string):
     replaceDict = makeReplaceTerms()
     # Place longer ones first to keep shorter substrings from matching where the longer ones should take place
-    # For instance given the replacements {'ab': 'AB', 'abc': 'ABC'} against the string 'hey abc', it should produce
-    # 'hey ABC' and not 'hey ABc'
+    # {'999': 'AB', 'abc': 'ABC'} against the string 'hey abc' should produce 'hey ABC' and not 'hey ABc'
     substrs = sorted(replaceDict, key=len, reverse=True)
 
     # Create a regex that matches any of the substrings to replace
