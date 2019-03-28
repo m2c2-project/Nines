@@ -32,10 +32,6 @@ def main():
 
     # MARK: Data replacement begins
     seekAndDestroy()
-    # Iterate over all files in current dir
-    # iterateFilesInDir(matchFolder)
-
-    # Subfolder Collection and Handlings
 
 
 
@@ -51,11 +47,28 @@ def seekAndDestroy():
         dirs[:] = [d for d in dirs if not d[0] == '.']
 
         for f in files:
+            # Ignores beep_log files ONLY!!!!!!!!
             if 'beep_log' not in f:
-                print(os.path.join(root, f))
+                os.chdir(root.replace(match, replace))
+                fileURL = os.path.join(root, f)
+                scrubFile(fileURL, f)
         for d in dirs:
-            print(os.path.join(root, d))
-    
+            # Create Subfolder
+            makeFolder(d)
+
+
+# Parse/Replace/SaveNew files from a directory
+def scrubFile(fileURL, fileName):
+    # Read file into mem
+    data = readFile(fileURL)
+    # Multireplace all instances of the substrings in data
+    scrubbedData = multiReplace(data)
+    # Replace match term in file name
+    newFileName = simpleMatchReplace(fileName)
+    # Create new File URL
+    newFileUrl = os.path.join(getCwd(), newFileName)
+    # Write to file
+    writeFile(newFileUrl, scrubbedData)
 
 
 # Creates a dictonary from the match and replace terms passed in as args and parses it with the Dolphin substrings
@@ -63,32 +76,13 @@ def makeReplaceTerms():
     # Replacement dictionary {value to find: value to replace} -> Dict
     replaceTerms = {
         "ID:"+match: "ID:"+replace,
-        "user_id:"+match: "user_id"+replace,
+        "user_id:"+match: "user_id:"+replace,
         "user_ID"+match: "ID:"+replace,
         #food_log pattern uses 2 of year to avoid issues with count column
-        match+" | 2" : replace+" | 2"             
+        match+"|2" : replace+"|2"             
     }
 
     return replaceTerms
-
-
-# Iterate over files in a directory
-def iterateFilesInDir(directory):
-    for file in os.listdir(directory):
-        fileName = os.fsdecode(file)
-        # if a text file and not a beep_log
-        if fileName.endswith(TEXTEXT) and 'beep_log' not in fileName:
-            # Create URL of file and open in memory
-            fileUrl = os.path.join(directory, fileName)
-            data = readFile(fileUrl)
-            # Multireplace all instances of the substrings in data
-            scrubbedData = multiReplace(data)
-            # Replace match term in file name
-            newFileName = simpleMatchReplace(fileName)
-            # Create new File URL
-            newFileUrl = os.path.join(getCwd(), newFileName)
-            # Write to file
-            writeFile(newFileUrl, scrubbedData)
 
 
 # Simple .replace on a string passed in using the match and replace arguments
@@ -148,7 +142,7 @@ def makeFolder(folderName):
             print('Creation of the replacement directory failed')
             sys.exit()
         else:
-            print('Successfully created the directory')
+            print('Successfully created %s' % dirPath)
     else:
         print('Cannot create replacement directory, folder already exists')
         sys.exit()
