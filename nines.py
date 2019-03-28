@@ -31,9 +31,9 @@ def main():
     os.chdir(replaceFolder)
 
     # MARK: Data replacement begins
-
+    seekAndDestroy()
     # Iterate over all files in current dir
-    iterateFilesInDir(matchFolder)
+    # iterateFilesInDir(matchFolder)
 
     # Subfolder Collection and Handlings
 
@@ -43,13 +43,30 @@ def main():
     return 0
 
 
+def seekAndDestroy():
+    targetDir = os.path.join(ROOT_DIRECTORY, match)
+    for root, dirs, files in os.walk(targetDir):
+        # Ignore hidden files and folders (i.e. git stuff)
+        files = [f for f in files if not f[0] == '.']
+        dirs[:] = [d for d in dirs if not d[0] == '.']
+
+        for f in files:
+            if 'beep_log' not in f:
+                print(os.path.join(root, f))
+        for d in dirs:
+            print(os.path.join(root, d))
+    
+
+
 # Creates a dictonary from the match and replace terms passed in as args and parses it with the Dolphin substrings
 def makeReplaceTerms():
     # Replacement dictionary {value to find: value to replace} -> Dict
     replaceTerms = {
         "ID:"+match: "ID:"+replace,
         "user_id:"+match: "user_id"+replace,
-        "user_ID"+match: "ID:"+replace               
+        "user_ID"+match: "ID:"+replace,
+        #food_log pattern uses 2 of year to avoid issues with count column
+        match+" | 2" : replace+" | 2"             
     }
 
     return replaceTerms
