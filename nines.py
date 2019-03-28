@@ -65,7 +65,7 @@ def iterateFilesInDir(directory):
             fileUrl = os.path.join(directory, fileName)
             data = readFile(fileUrl)
             # Multireplace all instances of the substrings in data
-            scrubbedData = multireplace(data)
+            scrubbedData = multiReplace(data)
             # Replace match term in file name
             newFileName = simpleMatchReplace(fileName)
             # Create new File URL
@@ -81,16 +81,14 @@ def simpleMatchReplace(string):
 
         
 # Replace various substrings from a string in one pass
-def multireplace(string):
+def multiReplace(string):
     # Grab replacement dict
     replaceDict = makeReplaceTerms()
     # Order from short len to longest for replacement control
     # {'ab': 'AB', 'abc': 'ABC'} against the string 'hey abc' will produce 'hey ABC' and not 'hey ABc'
     substrs = sorted(replaceDict, key=len, reverse=True)
-
     # Create a regex that matches any of the substrings to replace
     regexp = re.compile('|'.join(map(re.escape, substrs)))
-
     # For each match, look up the new string in the replacements
     return regexp.sub(lambda match: replaceDict[match.group(0)], string)
 
@@ -160,11 +158,9 @@ def getCwd():
 def argParser():
     parser = argparse.ArgumentParser(description='Finds and replaces all instances of a User Id passed as an positional argument in Dolphin data folders, '
     'file names, as well as .txts recursively. Will only work with Alphanumeric Characters')
-    
     # Parser match and replace arguments, required fields
     parser.add_argument('match', help='UserId to match and replace (Required)')
     parser.add_argument('replace', help='Replacement string for match values')
-    
     args = parser.parse_args()
 
     # Check validity of arguments before returning
