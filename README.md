@@ -15,7 +15,7 @@ positional arguments:
 optional arguments:
   -h, --help  show this help message and exit
 
-# Replacement Term
+# Replacement Terms
 Currently uses a regex map for search and replace terms hard coded into the script.
 
 cases follow
