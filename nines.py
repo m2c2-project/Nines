@@ -12,21 +12,25 @@ READ = 'r'
 MAKE = 'x'
 
 # Global Variables
-match = ''
-replace = ''
+match = None
+replace = None
+folder = None 
 
 
 def main():
-    global match, replace
+    global match, replace, folder
     # Collect args from input and create needed data structures
     args = argParser()
     match = args.match
     replace = args.replace
+    folder = args.folder
 
     # Check to see if a match folder currently exists
-    matchFolderExists(args.match)
+    matchFolderExists(folder)
+
     # Create replace folder
-    replaceFolder = makeFolder(args.replace)
+    replaceFolder = makeFolder(replace + '-new')
+
     # Switch to replace folder Dir
     os.chdir(replaceFolder)
 
@@ -35,22 +39,23 @@ def main():
     print("Success! Results have been updated")
     return 0
 
+
 # Creates a dictonary from the match and replace terms passed in as args and parses it with the Dolphin substrings
 def makeReplaceTerms():
     # Replacement dictionary {value to find: value to replace} -> Dict
     replaceTerms = {
         "ID:"+match: "ID:"+replace,
         "user_id:"+match: "user_id:"+replace,
-        "user_ID"+match: "ID:"+replace,
+        "user_ID"+match: "user_ID:"+replace,
         #food_log pattern uses 2 of year to avoid issues with count column
-        match+"|2" : replace+"|2"             
+        match+"|2018" : replace+"|2018"             
     }
 
     return replaceTerms
 
 
 def seekAndDestroy():
-    targetDir = os.path.join(ROOT_DIRECTORY, match)
+    targetDir = os.path.join(ROOT_DIRECTORY, folder)
     for root, dirs, files in os.walk(targetDir):
         # Ignore hidden files and folders (i.e. git stuff)
         files = [f for f in files if not f[0] == '.']
@@ -60,7 +65,7 @@ def seekAndDestroy():
             # Ignores beep_log files ONLY!!!!!!!!
             if 'beep_log' not in f:
                 # Change to correct new directory for saving purposes
-                os.chdir(root.replace(match, replace))
+                os.chdir(root.replace(folder, replace+'-new'))
                 # URL of the old file to be scrubbed
                 fileURL = os.path.join(root, f)
                 # Scrub file
@@ -122,7 +127,7 @@ def matchFolderExists(folderName):
     dirPath = os.path.join(getCwd(), folderName)
     # If folder doesn't exist, report and exit
     if not os.path.isdir(dirPath):
-        print('Target match folder %s does not exist' % folderName)
+        print('Target folder %s does not exist' % folderName)
         sys.exit()
     # Return folder path otherwise
     return dirPath
@@ -164,11 +169,13 @@ def getCwd():
 
 # Arge Parser Setup -> args object
 def argParser():
-    parser = argparse.ArgumentParser(description='Finds and replaces all instances of a User Id passed as an positional argument in Dolphin data folders, '
-    'file names, as well as .txts recursively. Will only work with Alphanumeric Characters')
+    parser = argparse.ArgumentParser(description='Finds and replaces all instances of a user Id in a Dolphin user data folder, '
+    'file names, as well as .txts, recursively. Will only work with Alphanumeric Characters. New folder will be named replace-new. This'
+    'There are three positional arguments, and this script should be run from the directory which contains the user folder')
     # Parser match and replace arguments, required fields
-    parser.add_argument('match', help='Required Argument: UserId to match and replace')
-    parser.add_argument('replace', help='Required Argument: Replacement string for match values')
+    parser.add_argument('folder', help='Target Folder Name')
+    parser.add_argument('match', help='UserId to match and replace')
+    parser.add_argument('replace', help='Replacement string for match values')
     args = parser.parse_args()
 
     # Check validity of arguments before returning
