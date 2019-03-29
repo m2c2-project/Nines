@@ -48,7 +48,7 @@ def makeReplaceTerms():
         "ID:"+match: "ID:"+replace,
         "user_id:"+match: "user_id:"+replace,
         "user_ID"+match: "user_ID:"+replace,
-        #food_log pattern uses 2 of year to avoid issues with count column
+        #food_log pattern uses 3 of year to avoid issues with count column, will need to be changed
         match+"|201" : replace+"|201"             
     }
 
