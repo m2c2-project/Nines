@@ -25,6 +25,6 @@ cases follow
         "user_ID"+match: "user_ID:"+replace,
         
         #food_log pattern uses 2 of year to avoid issues with count column
-        match+"|2018" : replace+"|2018"            
+        match+"|201" : replace+"|201"            
 
 Additional cases can be added via the code, or later on as an arg.
